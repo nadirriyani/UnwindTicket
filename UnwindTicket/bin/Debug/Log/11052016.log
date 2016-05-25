@@ -1,0 +1,477 @@
+Information	11/05/16 9:13:27 AM	Ideas Refreshed
+Information	11/05/16 9:15:22 AM	Ideas Refreshed
+Information	11/05/16 9:17:24 AM	Ideas Refreshed
+Information	11/05/16 9:18:32 AM	Ideas Refreshed
+Information	11/05/16 9:20:31 AM	Ideas Refreshed
+Information	11/05/16 9:22:31 AM	Ideas Refreshed
+Information	11/05/16 9:24:31 AM	Ideas Refreshed
+Information	11/05/16 9:26:31 AM	Ideas Refreshed
+Information	11/05/16 9:28:31 AM	Ideas Refreshed
+Information	11/05/16 9:30:31 AM	Ideas Refreshed
+Information	11/05/16 9:32:31 AM	Ideas Refreshed
+Information	11/05/16 9:34:31 AM	Ideas Refreshed
+Information	11/05/16 9:36:31 AM	Ideas Refreshed
+Information	11/05/16 9:38:31 AM	Ideas Refreshed
+Information	11/05/16 9:40:31 AM	Ideas Refreshed
+Information	11/05/16 9:42:31 AM	Ideas Refreshed
+Information	11/05/16 9:44:31 AM	Ideas Refreshed
+Information	11/05/16 9:46:31 AM	Ideas Refreshed
+Information	11/05/16 9:48:31 AM	Ideas Refreshed
+Information	11/05/16 9:50:31 AM	Ideas Refreshed
+Information	11/05/16 9:52:33 AM	Ideas Refreshed
+Information	11/05/16 9:54:31 AM	Ideas Refreshed
+Information	11/05/16 9:56:31 AM	Ideas Refreshed
+Information	11/05/16 9:58:31 AM	Ideas Refreshed
+Information	11/05/16 10:00:33 AM	Ideas Refreshed
+Information	11/05/16 10:02:32 AM	Ideas Refreshed
+Information	11/05/16 10:04:32 AM	Ideas Refreshed
+Information	11/05/16 10:06:32 AM	Ideas Refreshed
+Information	11/05/16 10:08:32 AM	Ideas Refreshed
+Information	11/05/16 10:10:32 AM	Ideas Refreshed
+Information	11/05/16 10:12:32 AM	Ideas Refreshed
+Information	11/05/16 10:14:32 AM	Ideas Refreshed
+Information	11/05/16 10:16:32 AM	Ideas Refreshed
+Information	11/05/16 10:18:32 AM	Ideas Refreshed
+Information	11/05/16 10:20:33 AM	Ideas Refreshed
+Information	11/05/16 10:22:32 AM	Ideas Refreshed
+Information	11/05/16 10:24:31 AM	Ideas Refreshed
+Information	11/05/16 10:26:32 AM	Ideas Refreshed
+Information	11/05/16 10:28:33 AM	Ideas Refreshed
+Information	11/05/16 10:30:34 AM	Ideas Refreshed
+Information	11/05/16 10:32:35 AM	Ideas Refreshed
+Information	11/05/16 10:34:32 AM	Ideas Refreshed
+Information	11/05/16 10:36:31 AM	Ideas Refreshed
+Information	11/05/16 10:38:34 AM	Ideas Refreshed
+Information	11/05/16 10:40:32 AM	Ideas Refreshed
+Information	11/05/16 10:42:32 AM	Ideas Refreshed
+Information	11/05/16 10:44:35 AM	Ideas Refreshed
+Information	11/05/16 10:46:33 AM	Ideas Refreshed
+Information	11/05/16 10:48:35 AM	Ideas Refreshed
+Information	11/05/16 10:50:33 AM	Ideas Refreshed
+Information	11/05/16 10:52:32 AM	Ideas Refreshed
+Information	11/05/16 10:54:32 AM	Ideas Refreshed
+Information	11/05/16 10:56:33 AM	Ideas Refreshed
+Information	11/05/16 10:58:33 AM	Ideas Refreshed
+Information	11/05/16 11:00:31 AM	Ideas Refreshed
+Information	11/05/16 11:02:41 AM	Ideas Refreshed
+Information	11/05/16 11:04:32 AM	Ideas Refreshed
+Information	11/05/16 11:06:32 AM	Ideas Refreshed
+Information	11/05/16 11:08:35 AM	Ideas Refreshed
+Information	11/05/16 11:10:33 AM	Ideas Refreshed
+Information	11/05/16 11:12:52 AM	Ideas Refreshed
+Information	11/05/16 11:14:32 AM	Ideas Refreshed
+Information	11/05/16 11:16:32 AM	Ideas Refreshed
+Information	11/05/16 11:18:34 AM	Ideas Refreshed
+Information	11/05/16 11:20:33 AM	Ideas Refreshed
+Information	11/05/16 11:22:34 AM	Ideas Refreshed
+Information	11/05/16 11:24:32 AM	Ideas Refreshed
+Information	11/05/16 11:26:35 AM	Ideas Refreshed
+Information	11/05/16 11:28:37 AM	Ideas Refreshed
+Information	11/05/16 11:30:32 AM	Ideas Refreshed
+Information	11/05/16 11:32:34 AM	Ideas Refreshed
+Information	11/05/16 11:34:33 AM	Ideas Refreshed
+Information	11/05/16 11:36:33 AM	Ideas Refreshed
+Information	11/05/16 11:38:33 AM	Ideas Refreshed
+Information	11/05/16 11:40:32 AM	Ideas Refreshed
+Information	11/05/16 11:42:34 AM	Ideas Refreshed
+Information	11/05/2016 12:05:32	Ideas Refreshed
+Information	11/05/2016 12:06:58	UCG IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.82,2988.37068654563,2909,-0.11317318000547,325336
+Information	11/05/2016 12:06:58	SendMail:  Creating Mail message 
+Information	11/05/2016 12:06:58	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:07:01	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:07:02	UCG IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.82,3050.60327212132,2909,-0.147947893451023,325607
+Information	11/05/2016 12:07:02	SendMail:  Creating Mail message 
+Information	11/05/2016 12:07:02	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:07:04	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:07:04	 unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.112,3033.74009465275,2909,-0.137399028461106,325377
+Information	11/05/2016 12:07:04	SendMail:  Creating Mail message 
+Information	11/05/2016 12:07:04	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:07:07	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:07:07	 unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,159.45,3040.85053833442,2909,0.0756785831803202,325387
+Information	11/05/2016 12:07:07	SendMail:  Creating Mail message 
+Information	11/05/2016 12:07:07	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:07:09	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:07:10	 unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,159.45,3057.00582058375,2909,0.0630102951459893,325553
+Information	11/05/2016 12:07:10	SendMail:  Creating Mail message 
+Information	11/05/2016 12:07:10	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:07:12	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:07:13	 unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.112,2904.05348976858,2909,-0.0826450423869882,325679
+Information	11/05/2016 12:07:13	SendMail:  Creating Mail message 
+Information	11/05/2016 12:07:13	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:07:15	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:07:15	PNDORA DC unwinded IdeaId:1883273 result:{"status":"Unsuccessful"}
+841.351254783399,940,2896.88173798644,2909,0.1130671600719,325690
+Information	11/05/2016 12:07:15	SendMail:  Creating Mail message 
+Information	11/05/2016 12:07:15	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:07:17	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:07:36	FR FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,138.25,2987.36129203693,2908,0.0641418408975848,325333
+Information	11/05/2016 12:07:36	SendMail:  Creating Mail message 
+Information	11/05/2016 12:07:36	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:07:38	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:10:04	Ideas Refreshed
+Information	11/05/2016 12:10:12	PNDORA DC unwinded IdeaId:1883273 result:{"status":"Unsuccessful"}
+841.351254783399,939.5,2896.88173798644,2911,0.111782480429473,325690
+Information	11/05/2016 12:10:12	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:12	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:10:12	 unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.828,2988.37068654563,2911,-0.111401967355996,325336
+Information	11/05/2016 12:10:12	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:12	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:10:14	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Error	11/05/2016 12:10:14	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:10:15	 unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.12,3033.74009465275,2911,-0.135946498256032,325377
+Information	11/05/2016 12:10:15	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:15	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:10:15	ABN NA unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.12,3033.74009465275,2911,-0.135946498256032,325377
+Information	11/05/2016 12:10:15	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:15	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:10:17	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Error	11/05/2016 12:10:17	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:10:17	 unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.828,3050.60327212132,2911,-0.14631801499698,325607
+Information	11/05/2016 12:10:17	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:17	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:10:17	ABN NA unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.828,3050.60327212132,2911,-0.14631801499698,325607
+Information	11/05/2016 12:10:17	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:17	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:10:19	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Error	11/05/2016 12:10:19	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:10:20	 unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.12,2904.05348976858,2911,-0.0809711172752605,325679
+Information	11/05/2016 12:10:20	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:20	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:10:20	ABN NA unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.12,2904.05348976858,2911,-0.0809711172752605,325679
+Information	11/05/2016 12:10:20	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:20	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:10:22	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Error	11/05/2016 12:10:22	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:10:42	TSCO LN unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,159.65,3040.85053833442,2911,0.0752312933864131,325387
+Information	11/05/2016 12:10:42	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:42	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:10:42	 unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,159.65,3040.85053833442,2911,0.0752312933864131,325387
+Information	11/05/2016 12:10:42	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:42	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:10:44	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Error	11/05/2016 12:10:44	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:10:45	 unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,159.65,3057.00582058375,2911,0.0625499807967224,325553
+Information	11/05/2016 12:10:45	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:45	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:10:45	TSCO LN unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,159.65,3057.00582058375,2911,0.0625499807967224,325553
+Information	11/05/2016 12:10:45	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:45	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:10:47	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:10:47	FR FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,138.3,2987.36129203693,2911,0.0635128637547464,325333
+Information	11/05/2016 12:10:47	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:47	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:10:47	LGEN LN unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,138.3,2987.36129203693,2911,0.0635128637547464,325333
+Information	11/05/2016 12:10:47	SendMail:  Creating Mail message 
+Information	11/05/2016 12:10:47	SendMail:  Creating SMTP Object 
+Error	11/05/2016 12:10:49	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Error	11/05/2016 12:10:50	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	11/05/2016 12:15:00	Ideas Refreshed
+Information	11/05/2016 12:19:28	 unwinded IdeaId:1883067 result:{"status":"Successful"}
+133.243231256519,138.15,2987.36129203693,2910,0.0627218465798152,325333
+Information	11/05/2016 12:19:28	SendMail:  Creating Mail message 
+Information	11/05/2016 12:19:28	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:19:33	 unwinded IdeaId:1883069 result:{"status":"Successful"}
+3.27805217291148,2.84,2988.37068654563,2910,-0.10740662635103,325336
+Information	11/05/2016 12:19:33	SendMail:  Creating Mail message 
+Information	11/05/2016 12:19:33	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:19:38	 unwinded IdeaId:1883091 result:{"status":"Successful"}
+3.78826898572919,3.114,3033.74009465275,2910,-0.137200708973713,325377
+Information	11/05/2016 12:19:38	SendMail:  Creating Mail message 
+Information	11/05/2016 12:19:38	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:19:43	 unwinded IdeaId:1883099 result:{"status":"Successful"}
+180.995390774178,159.8,3040.85053833442,2910,0.0740736876397414,325387
+Information	11/05/2016 12:19:43	SendMail:  Creating Mail message 
+Information	11/05/2016 12:19:43	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:19:48	 unwinded IdeaId:1883197 result:{"status":"Successful"}
+179.44473436666,159.8,3057.00582058375,2910,0.0613869513677902,325553
+Information	11/05/2016 12:19:48	SendMail:  Creating Mail message 
+Information	11/05/2016 12:19:48	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:19:52	 unwinded IdeaId:1883227 result:{"status":"Successful"}
+3.50034885685406,2.84,3050.60327212132,2910,-0.14256198125693,325607
+Information	11/05/2016 12:19:52	SendMail:  Creating Mail message 
+Information	11/05/2016 12:19:52	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:19:57	 unwinded IdeaId:1883266 result:{"status":"Successful"}
+3.38607474807719,3.114,2904.05348976858,2910,-0.0823987342462805,325679
+Information	11/05/2016 12:19:57	SendMail:  Creating Mail message 
+Information	11/05/2016 12:19:57	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:20:01	 unwinded IdeaId:1883273 result:{"status":"Successful"}
+841.351254783399,940,2896.88173798644,2910,0.112721961306314,325690
+Information	11/05/2016 12:20:01	SendMail:  Creating Mail message 
+Information	11/05/2016 12:20:01	SendMail:  Creating SMTP Object 
+Information	11/05/2016 12:21:30	SendMail:  Creating Mail message 
+Information	11/05/2016 12:21:30	SendMail:  Creating SMTP Object 
+Information	11/05/2016 13:06:26	Ideas Refreshed
+Information	11/05/2016 13:08:32	ERICB SS unwinded IdeaId:1883135 result:{"status":"Successful"}
+72.7693627870847,61.6,3078.02529029719,2915,-0.100525661301846,325438
+Information	11/05/2016 13:08:32	SendMail:  Creating Mail message 
+Information	11/05/2016 13:08:32	SendMail:  Creating SMTP Object 
+Information	11/05/2016 13:19:28	Ideas Refreshed
+Information	11/05/2016 13:19:36	BB Connected
+Information	11/05/2016 13:19:36	BB Connected
+Information	11/05/2016 13:19:36	BB Connected
+Information	11/05/2016 13:19:36	BB Connected
+Information	11/05/2016 13:19:37	BB Connected
+Information	11/05/2016 13:19:37	BB Connected
+Information	11/05/2016 13:19:37	BB Connected
+Information	11/05/2016 13:19:46	BB Connected
+Information	11/05/2016 13:19:46	BB Connected
+Information	11/05/2016 13:19:47	BB Connected
+Information	11/05/2016 13:19:47	BB Connected
+Information	11/05/2016 13:19:56	BB Connected
+Information	11/05/2016 13:19:56	BB Connected
+Information	11/05/2016 13:19:57	BB Connected
+Information	11/05/2016 13:19:58	BB Connected
+Information	11/05/2016 13:19:59	BB Connected
+Information	11/05/2016 13:19:59	BB Connected
+Information	11/05/2016 13:20:00	BB Connected
+Information	11/05/2016 13:20:01	BB Connected
+Information	11/05/2016 13:20:03	BB Connected
+Information	11/05/2016 13:20:03	BB Connected
+Information	11/05/2016 13:20:04	BB Connected
+Information	11/05/2016 13:20:04	BB Connected
+Information	11/05/2016 13:20:04	BB Connected
+Information	11/05/2016 13:20:04	BB Connected
+Information	11/05/2016 13:20:04	BB Connected
+Information	11/05/2016 13:20:06	BB Connected
+Information	11/05/2016 13:20:07	BB Connected
+Information	11/05/2016 13:20:07	BB Connected
+Information	11/05/2016 13:20:09	BB Connected
+Information	11/05/2016 13:20:09	BB Connected
+Information	11/05/2016 13:20:11	BB Connected
+Information	11/05/2016 13:20:13	BB Connected
+Information	11/05/2016 13:20:14	BB Connected
+Information	11/05/2016 13:20:14	BB Connected
+Information	11/05/2016 13:20:14	BB Connected
+Information	11/05/2016 13:20:14	BB Connected
+Information	11/05/2016 13:20:14	BB Connected
+Information	11/05/2016 13:20:16	BB Connected
+Information	11/05/2016 13:20:17	BB Connected
+Information	11/05/2016 13:20:17	BB Connected
+Information	11/05/2016 13:20:21	BB Connected
+Information	11/05/2016 13:20:23	BB Connected
+Information	11/05/2016 13:20:24	BB Connected
+Information	11/05/2016 13:20:26	BB Connected
+Information	11/05/2016 13:20:29	BB Connected
+Information	11/05/2016 13:20:30	BB Connected
+Information	11/05/2016 13:20:30	BB Connected
+Information	11/05/2016 13:20:30	BB Connected
+Information	11/05/2016 13:20:31	BB Connected
+Information	11/05/2016 13:20:31	BB Connected
+Information	11/05/2016 13:20:34	BB Connected
+Information	11/05/2016 13:20:36	BB Connected
+Information	11/05/2016 13:20:45	BB Connected
+Information	11/05/2016 13:20:49	BB Connected
+Information	11/05/2016 13:21:09	BB Connected
+Information	11/05/2016 13:21:09	BB Connected
+Information	11/05/2016 13:21:09	BB Connected
+Information	11/05/2016 13:21:09	BB Connected
+Information	11/05/2016 13:21:09	BB Connected
+Information	11/05/2016 13:21:09	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:10	BB Connected
+Information	11/05/2016 13:21:11	BB Connected
+Information	11/05/2016 13:21:11	BB Connected
+Information	11/05/2016 13:21:11	BB Connected
+Information	11/05/2016 13:21:16	BB Connected
+Information	11/05/2016 13:21:16	BB Connected
+Information	11/05/2016 13:21:17	BB Connected
+Information	11/05/2016 13:21:17	BB Connected
+Information	11/05/2016 13:21:19	BB Connected
+Information	11/05/2016 13:21:19	BB Connected
+Information	11/05/2016 13:21:19	BB Connected
+Information	11/05/2016 13:21:21	BB Connected
+Information	11/05/2016 13:21:21	BB Connected
+Information	11/05/2016 13:21:21	BB Connected
+Information	11/05/2016 13:21:22	BB Connected
+Information	11/05/2016 13:21:22	BB Connected
+Information	11/05/2016 13:21:22	BB Connected
+Information	11/05/2016 13:21:23	Tick identified
+Information	11/05/2016 13:21:24	BB Connected
+Information	11/05/2016 13:21:26	BB Connected
+Information	11/05/2016 13:21:26	BB Connected
+Information	11/05/2016 13:21:27	BB Connected
+Information	11/05/2016 13:21:27	BB Connected
+Information	11/05/2016 13:21:28	BB Connected
+Information	11/05/2016 13:21:29	BB Connected
+Information	11/05/2016 13:21:29	BB Connected
+Information	11/05/2016 13:21:29	BB Connected
+Information	11/05/2016 13:21:31	BB Connected
+Information	11/05/2016 13:21:31	BB Connected
+Information	11/05/2016 13:21:32	BB Connected
+Information	11/05/2016 13:21:32	BB Connected
+Information	11/05/2016 13:21:33	BB Connected
+Information	11/05/2016 13:21:34	BB Connected
+Information	11/05/2016 13:22:07	Ideas Refreshed
+Information	11/05/2016 13:24:59	Ideas Refreshed
+Information	11/05/2016 13:25:29	Tick identified
+Information	11/05/16 1:43:23 PM	Ideas Refreshed
+Information	11/05/16 1:43:24 PM	BB DisConnected
+Information	11/05/16 1:45:23 PM	Ideas Refreshed
+Information	11/05/16 1:45:23 PM	Refreshed - False
+Information	11/05/16 1:45:23 PM	Tick identified
+Information	11/05/16 1:45:24 PM	BB DisConnected
+Information	11/05/16 1:47:22 PM	Ideas Refreshed
+Information	11/05/16 1:47:22 PM	Refreshed - False
+Information	11/05/16 1:47:22 PM	Tick identified
+Information	11/05/16 1:47:23 PM	BB DisConnected
+Information	11/05/16 1:49:23 PM	Ideas Refreshed
+Information	11/05/16 1:49:23 PM	Refreshed - False
+Information	11/05/16 1:49:23 PM	Tick identified
+Information	11/05/16 1:49:24 PM	BB DisConnected
+Information	11/05/16 1:49:55 PM	Ideas Refreshed
+Information	11/05/16 1:49:56 PM	BB DisConnected
+Information	11/05/16 2:48:36 PM	Ideas Refreshed
+Information	11/05/16 2:48:37 PM	BB DisConnected
+Information	11/05/16 3:42:03 PM	Ideas Refreshed
+Information	11/05/16 3:42:04 PM	BB DisConnected
+Information	11/05/16 3:44:02 PM	Ideas Refreshed
+Information	11/05/16 3:44:02 PM	Refreshed - False
+Information	11/05/16 3:44:02 PM	Tick identified
+Information	11/05/16 3:44:04 PM	BB DisConnected
+Information	11/05/16 3:46:02 PM	Ideas Refreshed
+Information	11/05/16 3:46:02 PM	Refreshed - False
+Information	11/05/16 3:46:02 PM	Tick identified
+Information	11/05/16 3:46:04 PM	BB DisConnected

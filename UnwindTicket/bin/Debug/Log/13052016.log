@@ -1,0 +1,24 @@
+Information	13/05/16 7:26:41 AM	Ideas Refreshed
+Information	13/05/16 7:26:42 AM	BB DisConnected
+Information	13/05/16 7:41:47 AM	Ideas Refreshed
+Information	13/05/16 7:41:48 AM	BB DisConnected
+Information	13/05/16 7:43:46 AM	Ideas Refreshed
+Information	13/05/16 7:43:46 AM	Refreshed - False
+Information	13/05/16 7:43:46 AM	Tick identified
+Information	13/05/16 7:43:47 AM	BB DisConnected
+Information	13/05/16 7:45:25 AM	SendMail:  Creating SMTP Object 
+Error	13/05/16 7:45:26 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	13/05/16 7:45:33 AM	SendMail:  Creating SMTP Object 
+Error	13/05/16 7:45:33 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	13/05/16 7:45:46 AM	Ideas Refreshed
+Information	13/05/16 7:45:46 AM	Refreshed - False
+Information	13/05/16 7:45:46 AM	Tick identified
+Information	13/05/16 7:45:47 AM	BB DisConnected
+Information	13/05/16 7:47:47 AM	Ideas Refreshed
+Information	13/05/16 7:47:47 AM	Refreshed - False
+Information	13/05/16 7:47:47 AM	Tick identified
+Information	13/05/16 7:47:48 AM	BB DisConnected

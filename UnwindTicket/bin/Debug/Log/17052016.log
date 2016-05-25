@@ -1,0 +1,127 @@
+Information	17/05/16 8:43:54 AM	Ideas Refreshed
+Information	17/05/16 8:43:55 AM	BB DisConnected
+Information	17/05/16 8:44:00 AM	SendMail:  Creating SMTP Object 
+Error	17/05/16 8:44:00 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	17/05/16 8:44:13 AM	SendMail:  Creating SMTP Object 
+Error	17/05/16 8:44:13 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	17/05/16 8:52:31 AM	Ideas Refreshed
+Information	17/05/16 8:52:32 AM	BB DisConnected
+Information	17/05/16 8:54:53 AM	Ideas Refreshed
+Information	17/05/16 8:54:54 AM	BB DisConnected
+Information	17/05/16 8:54:58 AM	SendMail:  Creating SMTP Object 
+Error	17/05/16 8:54:58 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	17/05/16 8:56:47 AM	Ideas Refreshed
+Information	17/05/16 8:56:48 AM	BB DisConnected
+Information	17/05/16 9:55:44 AM	Ideas Refreshed
+Information	17/05/16 9:55:45 AM	BB DisConnected
+Information	17/05/16 9:56:00 AM	Ideas Refreshed
+Information	17/05/16 9:56:01 AM	BB DisConnected
+Information	17/05/16 9:58:08 AM	Ideas Refreshed
+Information	17/05/16 9:58:08 AM	Refreshed - False
+Information	17/05/16 9:58:08 AM	Tick identified
+Information	17/05/16 9:58:09 AM	BB DisConnected
+Information	17/05/16 10:01:32 AM	Ideas Refreshed
+Information	17/05/16 10:01:33 AM	BB DisConnected
+Information	17/05/16 10:01:35 AM	SendMail:  Creating SMTP Object 
+Error	17/05/16 10:01:36 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	17/05/16 10:03:52 AM	GetBlotterLiveIdeas: Unauthorized
+Given User 'roskoui@carlsoncapital.com' not found.
+Information	17/05/16 10:03:52 AM	Ideas Refreshed
+Information	17/05/16 10:03:53 AM	BB DisConnected
+Information	17/05/16 10:03:54 AM	SendMail:  Creating SMTP Object 
+Error	17/05/16 10:03:54 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	17/05/16 10:11:01 AM	GetBlotterLiveIdeas: Unauthorized
+Given User 'roskoui@carlsoncapital.com' not found.
+Information	17/05/16 10:11:01 AM	Ideas Refreshed
+Information	17/05/16 10:11:02 AM	BB DisConnected
+Information	17/05/16 10:11:04 AM	SendMail:  Creating SMTP Object 
+Error	17/05/16 10:11:04 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	17/05/16 10:11:26 AM	Ideas Refreshed
+Information	17/05/16 10:11:27 AM	BB DisConnected
+Information	17/05/16 10:52:08 AM	Ideas Refreshed
+Information	17/05/16 10:52:10 AM	BB DisConnected
+Information	17/05/16 11:06:11 AM	GetBlotterLiveIdeas: NotFound
+The resource cannot be found.body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        Server Error in '/API/v1.9.4' Application.The resource cannot be found.Description: HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            Requested URL: /api/v1.9.4/blotterliveideas/blotterliveideas
+Information	17/05/16 11:06:11 AM	Ideas Refreshed
+Information	17/05/16 11:06:12 AM	BB DisConnected
+Information	17/05/16 11:30:19 AM	GetBlotterLiveIdeas: NotFound
+The resource cannot be found.body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        Server Error in '/API/v1.9.4' Application.The resource cannot be found.Description: HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            Requested URL: /api/v1.9.4/blotterliveideas/blotterliveideas
+Information	17/05/16 11:30:19 AM	Ideas Refreshed
+Information	17/05/16 11:30:20 AM	BB DisConnected
+Information	17/05/16 12:12:07 PM	GetBlotterLiveIdeas: NotFound
+The resource cannot be found.body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        Server Error in '/API/v1.9.4' Application.The resource cannot be found.Description: HTTP 404. The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable. &nbsp;Please review the following URL and make sure that it is spelled correctly.
+            Requested URL: /api/v1.9.4/blotterliveideas/blotterliveideas
+Information	17/05/16 12:12:07 PM	Ideas Refreshed
+Information	17/05/16 12:12:08 PM	BB DisConnected
+Information	17/05/16 12:12:23 PM	SendMail:  Creating SMTP Object 
+Error	17/05/16 12:12:23 PM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	17/05/16 12:12:58 PM	Ideas Refreshed
+Information	17/05/16 12:12:59 PM	BB DisConnected
+Information	17/05/16 12:14:57 PM	Ideas Refreshed
+Information	17/05/16 12:14:57 PM	Refreshed - False
+Information	17/05/16 12:14:57 PM	Tick identified
+Information	17/05/16 12:14:58 PM	BB DisConnected

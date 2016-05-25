@@ -1,0 +1,45 @@
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Properties.Resources.resources
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csproj.GenerateResource.Cache
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.pdb
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\bin\Debug\Bloomberglp.Blpapi.dll
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeas.resources
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\obj\x86\Debug\UnwindTicket.Form1.resources
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeas.resources
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\obj\x86\Debug\UnwindTicket.Properties.Resources.resources
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\obj\x86\Debug\UnwindTicket.csproj.GenerateResource.Cache
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\bin\Debug\UnwindTicket.exe.config
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\bin\Debug\UnwindTicket.exe
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\bin\Debug\UnwindTicket.pdb
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\bin\Debug\Bloomberglp.Blpapi.dll
+D:\Project\SL_TP\UnwindTicket - Current\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeasSubscription.resources
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.config
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.manifest
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.application
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.TrustInfo.xml
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe.manifest
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.application
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Log.resources
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.dll
+D:\Project\SL_TP\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.xml
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Log.resources
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeas.resources
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Properties.Resources.resources
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csproj.GenerateResource.Cache
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.config
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.manifest
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.application
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.pdb
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\bin\Debug\Bloomberglp.Blpapi.dll
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.dll
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.xml
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.TrustInfo.xml
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe.manifest
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.application
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
+D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb

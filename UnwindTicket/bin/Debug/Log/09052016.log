@@ -1,0 +1,679 @@
+Information	09/05/16 10:43:12 AM	checking log and email
+Information	09/05/16 10:43:26 AM	SendMail:  Creating Mail message 
+Information	09/05/16 10:43:26 AM	SendMail:  Creating Mail message 
+Information	09/05/16 10:43:31 AM	SendMail:  Creating SMTP Object 
+Information	09/05/16 10:58:18 AM	checking log and email
+Information	09/05/16 10:58:44 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:00:31 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:00:45 AM	SendMail:  Creating SMTP Object 
+Error	09/05/16 11:00:50 AM	SendMail: Failure sending mail.
+Information	09/05/16 11:01:12 AM	Ideas Refreshed
+Information	09/05/16 11:01:35 AM	checking log and email
+Information	09/05/16 11:01:35 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:01:35 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:01:35 AM	SendMail:  Creating SMTP Object 
+Error	09/05/16 11:01:35 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.sendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 89
+Information	09/05/16 11:05:56 AM	checking log and email
+Information	09/05/16 11:05:58 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:05:58 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:05:58 AM	SendMail:  Creating SMTP Object 
+Error	09/05/16 11:05:58 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.sendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 89
+Information	09/05/16 11:11:30 AM	Ideas Refreshed
+Information	09/05/16 11:11:37 AM	checking log and email
+Information	09/05/16 11:11:37 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:11:37 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:11:37 AM	SendMail:  Creating SMTP Object 
+Error	09/05/16 11:11:37 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.sendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 89
+Information	09/05/16 11:13:49 AM	checking log and email
+Information	09/05/16 11:13:55 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:13:55 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:13:59 AM	SendMail:  Creating SMTP Object 
+Information	09/05/16 11:19:11 AM	checking log and email
+Information	09/05/16 11:19:37 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:19:46 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:20:06 AM	SendMail:  Creating SMTP Object 
+Information	09/05/16 11:39:44 AM	checking log and email
+Information	09/05/16 11:41:44 AM	checking log and email
+Information	09/05/16 11:41:45 AM	SendMail:  Creating Mail message 
+Information	09/05/16 11:41:45 AM	SendMail:  Creating SMTP Object 
+Error	09/05/16 11:41:45 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/16 11:41:47 AM	Ideas Refreshed
+Information	09/05/2016 14:43:10	checking log and email
+Information	09/05/2016 14:43:10	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:10	SendMail:  Creating SMTP Object 
+Information	09/05/2016 14:43:20	Ideas Refreshed
+Information	09/05/2016 14:43:29	WEIR LN unwinded IdeaId:1883125 result:{"status":"Unsuccessful"}
+1207.72051600807,1129,3053.14360818407,2931,325425
+Information	09/05/2016 14:43:29	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:29	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:31	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:32	 unwinded IdeaId:1883029 result:{"status":"Unsuccessful"}
+460.368274035715,492.9,2843.94768486627,2931,325270
+Information	09/05/2016 14:43:32	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:32	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:34	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:35	 unwinded IdeaId:1883063 result:{"status":"Unsuccessful"}
+517.10490223442,492.9,2982.48000654183,2931,325328
+Information	09/05/2016 14:43:35	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:35	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:37	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:38	 unwinded IdeaId:1883125 result:{"status":"Unsuccessful"}
+1207.72051600807,1129,3053.14360818407,2931,325425
+Information	09/05/2016 14:43:38	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:38	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:40	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:41	 unwinded IdeaId:1883129 result:{"status":"Unsuccessful"}
+9.12008008108606,8.43,3057.69706419566,2931,325430
+Information	09/05/2016 14:43:41	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:41	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:43	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:43	 unwinded IdeaId:1883167 result:{"status":"Unsuccessful"}
+335.03031376061,348.3,3044.49483072712,2931,325500
+Information	09/05/2016 14:43:43	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:43	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:45	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:46	 unwinded IdeaId:1883168 result:{"status":"Unsuccessful"}
+424.957993043482,417.7,3043.59358768414,2931,325501
+Information	09/05/2016 14:43:46	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:46	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:48	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:48	 unwinded IdeaId:1883176 result:{"status":"Unsuccessful"}
+1529.86556160365,1409,3048.5337756142,2931,325517
+Information	09/05/2016 14:43:48	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:48	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:51	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:51	 unwinded IdeaId:1883240 result:{"status":"Unsuccessful"}
+173.278488841937,160.4,2990.16989411745,2931,325627
+Information	09/05/2016 14:43:51	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:51	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:53	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:54	 unwinded IdeaId:1883250 result:{"status":"Unsuccessful"}
+138.324550137673,134.1,2941.86574210097,2931,325647
+Information	09/05/2016 14:43:54	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:54	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:56	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:56	AH NA unwinded IdeaId:1883029 result:{"status":"Unsuccessful"}
+460.368274035715,492.9,2843.94768486627,2931,325270
+Information	09/05/2016 14:43:56	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:56	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:43:58	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:43:59	AH NA unwinded IdeaId:1883063 result:{"status":"Unsuccessful"}
+517.10490223442,492.9,2982.48000654183,2931,325328
+Information	09/05/2016 14:43:59	SendMail:  Creating Mail message 
+Information	09/05/2016 14:43:59	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:01	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:02	AH NA unwinded IdeaId:1883125 result:{"status":"Unsuccessful"}
+1207.72051600807,1129,3053.14360818407,2931,325425
+Information	09/05/2016 14:44:02	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:02	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:04	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:04	AH NA unwinded IdeaId:1883129 result:{"status":"Unsuccessful"}
+9.12008008108606,8.43,3057.69706419566,2931,325430
+Information	09/05/2016 14:44:04	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:04	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:06	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:07	AH NA unwinded IdeaId:1883167 result:{"status":"Unsuccessful"}
+335.03031376061,348.3,3044.49483072712,2931,325500
+Information	09/05/2016 14:44:07	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:07	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:09	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:10	AH NA unwinded IdeaId:1883168 result:{"status":"Unsuccessful"}
+424.957993043482,417.7,3043.59358768414,2931,325501
+Information	09/05/2016 14:44:10	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:10	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:12	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:12	AH NA unwinded IdeaId:1883176 result:{"status":"Unsuccessful"}
+1529.86556160365,1409,3048.5337756142,2931,325517
+Information	09/05/2016 14:44:12	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:12	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:14	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:15	AH NA unwinded IdeaId:1883239 result:{"status":"Unsuccessful"}
+19.0555383406216,19.295,3006.18319377596,2931,325623
+Information	09/05/2016 14:44:15	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:15	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:17	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:17	AH NA unwinded IdeaId:1883240 result:{"status":"Unsuccessful"}
+173.278488841937,160.4,2990.16989411745,2931,325627
+Information	09/05/2016 14:44:17	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:17	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:19	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:20	AH NA unwinded IdeaId:1883250 result:{"status":"Unsuccessful"}
+138.324550137673,134.1,2941.86574210097,2931,325647
+Information	09/05/2016 14:44:20	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:20	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:22	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:22	TOD IM unwinded IdeaId:1883029 result:{"status":"Unsuccessful"}
+460.368274035715,492.9,2843.94768486627,2931,325270
+Information	09/05/2016 14:44:22	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:22	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:24	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:25	TOD IM unwinded IdeaId:1883063 result:{"status":"Unsuccessful"}
+517.10490223442,492.9,2982.48000654183,2931,325328
+Information	09/05/2016 14:44:25	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:25	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:27	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:28	TOD IM unwinded IdeaId:1883110 result:{"status":"Unsuccessful"}
+63.5,58.4,3042.26985177229,2931,325409
+Information	09/05/2016 14:44:28	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:28	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:30	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:30	TOD IM unwinded IdeaId:1883125 result:{"status":"Unsuccessful"}
+1207.72051600807,1129,3053.14360818407,2931,325425
+Information	09/05/2016 14:44:30	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:30	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:32	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:33	TOD IM unwinded IdeaId:1883129 result:{"status":"Unsuccessful"}
+9.12008008108606,8.43,3057.69706419566,2931,325430
+Information	09/05/2016 14:44:33	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:33	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:35	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:35	TOD IM unwinded IdeaId:1883167 result:{"status":"Unsuccessful"}
+335.03031376061,348.3,3044.49483072712,2931,325500
+Information	09/05/2016 14:44:35	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:35	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:37	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:38	TOD IM unwinded IdeaId:1883168 result:{"status":"Unsuccessful"}
+424.957993043482,417.7,3043.59358768414,2931,325501
+Information	09/05/2016 14:44:38	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:38	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:40	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:41	TOD IM unwinded IdeaId:1883176 result:{"status":"Unsuccessful"}
+1529.86556160365,1409,3048.5337756142,2931,325517
+Information	09/05/2016 14:44:41	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:41	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:43	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:43	TOD IM unwinded IdeaId:1883239 result:{"status":"Unsuccessful"}
+19.0555383406216,19.295,3006.18319377596,2931,325623
+Information	09/05/2016 14:44:43	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:43	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:45	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:46	TOD IM unwinded IdeaId:1883240 result:{"status":"Unsuccessful"}
+173.278488841937,160.4,2990.16989411745,2931,325627
+Information	09/05/2016 14:44:46	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:46	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:48	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:48	TOD IM unwinded IdeaId:1883250 result:{"status":"Unsuccessful"}
+138.324550137673,134.1,2941.86574210097,2931,325647
+Information	09/05/2016 14:44:48	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:48	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:50	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:51	BMPS IM unwinded IdeaId:1883019 result:{"status":"Unsuccessful"}
+0.500178367283386,0.618,2845.30841983451,2931,325255
+Information	09/05/2016 14:44:51	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:51	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:53	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:54	BMPS IM unwinded IdeaId:1883029 result:{"status":"Unsuccessful"}
+460.368274035715,492.9,2843.94768486627,2931,325270
+Information	09/05/2016 14:44:54	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:54	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:56	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:56	BMPS IM unwinded IdeaId:1883039 result:{"status":"Unsuccessful"}
+0.55095912211355,0.618,2924.26262005113,2931,325290
+Information	09/05/2016 14:44:56	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:56	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:44:58	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:44:59	BMPS IM unwinded IdeaId:1883062 result:{"status":"Unsuccessful"}
+0.582439105830995,0.618,2969.39259518842,2931,325326
+Information	09/05/2016 14:44:59	SendMail:  Creating Mail message 
+Information	09/05/2016 14:44:59	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:01	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:02	BMPS IM unwinded IdeaId:1883063 result:{"status":"Unsuccessful"}
+517.10490223442,492.9,2982.48000654183,2931,325328
+Information	09/05/2016 14:45:02	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:02	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:04	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:04	BMPS IM unwinded IdeaId:1883110 result:{"status":"Unsuccessful"}
+63.5,58.4,3042.26985177229,2931,325409
+Information	09/05/2016 14:45:04	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:04	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:06	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:07	BMPS IM unwinded IdeaId:1883125 result:{"status":"Unsuccessful"}
+1207.72051600807,1129,3053.14360818407,2931,325425
+Information	09/05/2016 14:45:07	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:07	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:09	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:09	BMPS IM unwinded IdeaId:1883129 result:{"status":"Unsuccessful"}
+9.12008008108606,8.43,3057.69706419566,2931,325430
+Information	09/05/2016 14:45:09	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:09	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:11	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:12	BMPS IM unwinded IdeaId:1883167 result:{"status":"Unsuccessful"}
+335.03031376061,348.3,3044.49483072712,2931,325500
+Information	09/05/2016 14:45:12	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:12	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:14	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:14	BMPS IM unwinded IdeaId:1883168 result:{"status":"Unsuccessful"}
+424.957993043482,417.7,3043.59358768414,2931,325501
+Information	09/05/2016 14:45:14	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:14	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:16	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:17	BMPS IM unwinded IdeaId:1883176 result:{"status":"Unsuccessful"}
+1529.86556160365,1409,3048.5337756142,2931,325517
+Information	09/05/2016 14:45:17	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:17	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:19	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:19	BMPS IM unwinded IdeaId:1883239 result:{"status":"Unsuccessful"}
+19.0555383406216,19.295,3006.18319377596,2931,325623
+Information	09/05/2016 14:45:19	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:19	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:21	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:22	BMPS IM unwinded IdeaId:1883240 result:{"status":"Unsuccessful"}
+173.278488841937,160.4,2990.16989411745,2931,325627
+Information	09/05/2016 14:45:22	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:22	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:24	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:24	BMPS IM unwinded IdeaId:1883250 result:{"status":"Unsuccessful"}
+138.324550137673,134.1,2941.86574210097,2931,325647
+Information	09/05/2016 14:45:24	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:24	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:26	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:27	SKFB SS unwinded IdeaId:1883019 result:{"status":"Unsuccessful"}
+0.500178367283386,0.618,2845.30841983451,2931,325255
+Information	09/05/2016 14:45:27	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:27	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:29	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:29	SKFB SS unwinded IdeaId:1883029 result:{"status":"Unsuccessful"}
+460.368274035715,492.9,2843.94768486627,2931,325270
+Information	09/05/2016 14:45:29	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:29	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:31	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:32	SKFB SS unwinded IdeaId:1883039 result:{"status":"Unsuccessful"}
+0.55095912211355,0.618,2924.26262005113,2931,325290
+Information	09/05/2016 14:45:32	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:32	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:34	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:35	SKFB SS unwinded IdeaId:1883062 result:{"status":"Unsuccessful"}
+0.582439105830995,0.618,2969.39259518842,2931,325326
+Information	09/05/2016 14:45:35	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:35	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:37	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:38	SKFB SS unwinded IdeaId:1883063 result:{"status":"Unsuccessful"}
+517.10490223442,492.9,2982.48000654183,2931,325328
+Information	09/05/2016 14:45:38	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:38	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:40	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:41	SKFB SS unwinded IdeaId:1883110 result:{"status":"Unsuccessful"}
+63.5,58.4,3042.26985177229,2931,325409
+Information	09/05/2016 14:45:41	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:41	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:42	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:43	SKFB SS unwinded IdeaId:1883125 result:{"status":"Unsuccessful"}
+1207.72051600807,1129,3053.14360818407,2931,325425
+Information	09/05/2016 14:45:43	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:43	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:45	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:45	SKFB SS unwinded IdeaId:1883129 result:{"status":"Unsuccessful"}
+9.12008008108606,8.43,3057.69706419566,2931,325430
+Information	09/05/2016 14:45:45	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:45	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:47	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:48	SKFB SS unwinded IdeaId:1883167 result:{"status":"Unsuccessful"}
+335.03031376061,348.3,3044.49483072712,2931,325500
+Information	09/05/2016 14:45:48	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:48	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:50	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:51	SKFB SS unwinded IdeaId:1883168 result:{"status":"Unsuccessful"}
+424.957993043482,417.7,3043.59358768414,2931,325501
+Information	09/05/2016 14:45:51	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:51	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:53	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:54	SKFB SS unwinded IdeaId:1883176 result:{"status":"Unsuccessful"}
+1529.86556160365,1409,3048.5337756142,2931,325517
+Information	09/05/2016 14:45:54	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:54	SendMail:  Creating SMTP Object 
+Error	09/05/2016 14:45:55	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	09/05/2016 14:45:56	SKFB SS unwinded IdeaId:1883239 result:{"status":"Unsuccessful"}
+19.0555383406216,19.295,3006.18319377596,2931,325623
+Information	09/05/2016 14:45:56	SendMail:  Creating Mail message 
+Information	09/05/2016 14:45:56	SendMail:  Creating SMTP Object 
+Information	09/05/2016 14:46:22	checking log and email
+Information	09/05/2016 14:46:35	SendMail:  Creating Mail message 
+Information	09/05/2016 14:47:21	SendMail:  Creating SMTP Object 
+Information	09/05/2016 15:02:17	checking log and email
+Information	09/05/2016 15:02:23	SendMail:  Creating Mail message 
+Information	09/05/2016 15:02:30	SendMail:  Creating SMTP Object 
+Information	09/05/2016 15:03:51	checking log and email
+Information	09/05/2016 15:04:07	SendMail:  Creating Mail message 
+Information	09/05/2016 15:04:11	SendMail:  Creating SMTP Object 
+Information	09/05/2016 15:09:47	checking log and email
+Information	09/05/2016 15:09:52	SendMail:  Creating Mail message 
+Information	09/05/2016 15:09:52	SendMail:  Creating SMTP Object 
+Information	09/05/2016 15:10:52	checking log and email
+Information	09/05/2016 15:10:52	SendMail:  Creating Mail message 
+Information	09/05/2016 15:10:52	SendMail:  Creating SMTP Object 
+Information	09/05/2016 15:12:59	checking log and email
+Information	09/05/2016 15:13:00	SendMail:  Creating Mail message 
+Information	09/05/2016 15:13:00	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:14:28	checking log and email
+Information	09/05/2016 16:14:32	SendMail:  Creating Mail message 
+Information	09/05/2016 16:14:35	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:16:12	Ideas Refreshed
+Information	09/05/2016 16:19:00	Ideas Refreshed
+Information	09/05/2016 16:20:23	Ideas Refreshed
+Information	09/05/2016 16:21:44	Ideas Refreshed
+Information	09/05/2016 16:22:29	SendMail:  Creating Mail message 
+Information	09/05/2016 16:22:38	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:08	BBA LN unwinded IdeaId:1883048 result:{"status":"Unsuccessful"}
+198.927493073527,191.1,2953.45217755704,2920,325304
+Information	09/05/2016 16:23:08	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:08	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:12	VNA GY unwinded IdeaId:1883048 result:{"status":"Unsuccessful"}
+198.927493073527,191.1,2953.45217755704,2920,325304
+Information	09/05/2016 16:23:12	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:12	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:17	KNEBV FH unwinded IdeaId:1883048 result:{"status":"Unsuccessful"}
+198.927493073527,191.1,2953.45217755704,2920,325304
+Information	09/05/2016 16:23:17	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:17	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:21	KNEBV FH unwinded IdeaId:1883102 result:{"status":"Unsuccessful"}
+42.9675386478555,38.92,3041.64868510919,2920,325392
+Information	09/05/2016 16:23:21	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:21	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:25	BT/A LN unwinded IdeaId:1883048 result:{"status":"Unsuccessful"}
+198.927493073527,191.1,2953.45217755704,2920,325304
+Information	09/05/2016 16:23:25	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:25	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:29	BT/A LN unwinded IdeaId:1883102 result:{"status":"Unsuccessful"}
+42.9675386478555,38.92,3041.64868510919,2920,325392
+Information	09/05/2016 16:23:29	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:29	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:33	STAN LN unwinded IdeaId:1883029 result:{"status":"Unsuccessful"}
+460.368274035715,480.8,2843.94768486627,2920,325270
+Information	09/05/2016 16:23:33	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:33	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:38	STAN LN unwinded IdeaId:1883048 result:{"status":"Unsuccessful"}
+198.927493073527,191.1,2953.45217755704,2920,325304
+Information	09/05/2016 16:23:38	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:38	SendMail:  Creating SMTP Object 
+Information	09/05/2016 16:23:42	STAN LN unwinded IdeaId:1883063 result:{"status":"Unsuccessful"}
+517.10490223442,480.8,2982.48000654183,2920,325328
+Information	09/05/2016 16:23:42	SendMail:  Creating Mail message 
+Information	09/05/2016 16:23:42	SendMail:  Creating SMTP Object 

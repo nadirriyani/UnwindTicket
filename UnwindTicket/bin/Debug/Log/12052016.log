@@ -1,0 +1,182 @@
+Information	12/05/16 9:24:08 AM	Ideas Refreshed
+Information	12/05/16 9:24:09 AM	BB DisConnected
+Information	12/05/16 9:24:13 AM	SendMail:  Creating SMTP Object 
+Error	12/05/16 9:24:14 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	12/05/16 9:26:07 AM	Ideas Refreshed
+Information	12/05/16 9:26:07 AM	Refreshed - False
+Information	12/05/16 9:26:07 AM	Tick identified
+Information	12/05/16 9:26:08 AM	BB DisConnected
+Information	12/05/16 9:26:09 AM	SendMail:  Creating SMTP Object 
+Error	12/05/16 9:26:09 AM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	12/05/16 9:27:26 AM	Ideas Refreshed
+Information	12/05/16 9:27:27 AM	BB DisConnected
+Information	12/05/16 9:29:25 AM	Ideas Refreshed
+Information	12/05/16 9:29:25 AM	Refreshed - False
+Information	12/05/16 9:29:25 AM	Tick identified
+Information	12/05/16 9:29:27 AM	BB DisConnected
+Information	12/05/16 9:31:25 AM	Ideas Refreshed
+Information	12/05/16 9:31:25 AM	Refreshed - False
+Information	12/05/16 9:31:25 AM	Tick identified
+Information	12/05/16 9:31:26 AM	BB DisConnected
+Information	12/05/16 9:33:26 AM	Ideas Refreshed
+Information	12/05/16 9:33:26 AM	Refreshed - False
+Information	12/05/16 9:33:26 AM	Tick identified
+Information	12/05/16 9:33:27 AM	BB DisConnected
+Information	12/05/16 9:35:26 AM	Ideas Refreshed
+Information	12/05/16 9:35:26 AM	Refreshed - False
+Information	12/05/16 9:35:26 AM	Tick identified
+Information	12/05/16 9:35:27 AM	BB DisConnected
+Information	12/05/16 9:37:25 AM	Ideas Refreshed
+Information	12/05/16 9:37:25 AM	Refreshed - False
+Information	12/05/16 9:37:25 AM	Tick identified
+Information	12/05/16 9:37:27 AM	BB DisConnected
+Information	12/05/16 9:39:25 AM	Ideas Refreshed
+Information	12/05/16 9:39:25 AM	Refreshed - False
+Information	12/05/16 9:39:25 AM	Tick identified
+Information	12/05/16 9:39:27 AM	BB DisConnected
+Information	12/05/16 9:41:26 AM	Ideas Refreshed
+Information	12/05/16 9:41:26 AM	Refreshed - False
+Information	12/05/16 9:41:26 AM	Tick identified
+Information	12/05/16 9:41:27 AM	BB DisConnected
+Information	12/05/16 9:43:27 AM	Ideas Refreshed
+Information	12/05/16 9:43:27 AM	Refreshed - False
+Information	12/05/16 9:43:27 AM	Tick identified
+Information	12/05/16 9:43:29 AM	BB DisConnected
+Information	12/05/16 9:45:25 AM	Ideas Refreshed
+Information	12/05/16 9:45:25 AM	Refreshed - False
+Information	12/05/16 9:45:25 AM	Tick identified
+Information	12/05/16 9:45:27 AM	BB DisConnected
+Information	12/05/16 9:47:25 AM	Ideas Refreshed
+Information	12/05/16 9:47:25 AM	Refreshed - False
+Information	12/05/16 9:47:25 AM	Tick identified
+Information	12/05/16 9:47:27 AM	BB DisConnected
+Information	12/05/16 9:49:25 AM	Ideas Refreshed
+Information	12/05/16 9:49:25 AM	Refreshed - False
+Information	12/05/16 9:49:25 AM	Tick identified
+Information	12/05/16 9:49:27 AM	BB DisConnected
+Information	12/05/16 9:51:25 AM	Ideas Refreshed
+Information	12/05/16 9:51:25 AM	Refreshed - False
+Information	12/05/16 9:51:25 AM	Tick identified
+Information	12/05/16 9:51:26 AM	BB DisConnected
+Information	12/05/16 9:53:25 AM	Ideas Refreshed
+Information	12/05/16 9:53:25 AM	Refreshed - False
+Information	12/05/16 9:53:25 AM	Tick identified
+Information	12/05/16 9:53:26 AM	BB DisConnected
+Information	12/05/16 9:55:25 AM	Ideas Refreshed
+Information	12/05/16 9:55:25 AM	Refreshed - False
+Information	12/05/16 9:55:25 AM	Tick identified
+Information	12/05/16 9:55:26 AM	BB DisConnected
+Information	12/05/16 9:57:25 AM	Ideas Refreshed
+Information	12/05/16 9:57:25 AM	Refreshed - False
+Information	12/05/16 9:57:25 AM	Tick identified
+Information	12/05/16 9:57:26 AM	BB DisConnected
+Information	12/05/16 9:59:26 AM	Ideas Refreshed
+Information	12/05/16 9:59:26 AM	Refreshed - False
+Information	12/05/16 9:59:26 AM	Tick identified
+Information	12/05/16 9:59:27 AM	BB DisConnected
+Information	12/05/16 10:01:25 AM	Ideas Refreshed
+Information	12/05/16 10:01:25 AM	Refreshed - False
+Information	12/05/16 10:01:25 AM	Tick identified
+Information	12/05/16 10:01:26 AM	BB DisConnected
+Information	12/05/16 10:03:25 AM	Ideas Refreshed
+Information	12/05/16 10:03:25 AM	Refreshed - False
+Information	12/05/16 10:03:25 AM	Tick identified
+Information	12/05/16 10:03:27 AM	BB DisConnected
+Information	12/05/16 10:05:25 AM	Ideas Refreshed
+Information	12/05/16 10:05:25 AM	Refreshed - False
+Information	12/05/16 10:05:25 AM	Tick identified
+Information	12/05/16 10:05:27 AM	BB DisConnected
+Information	12/05/16 10:07:27 AM	Ideas Refreshed
+Information	12/05/16 10:07:27 AM	Refreshed - False
+Information	12/05/16 10:07:27 AM	Tick identified
+Information	12/05/16 10:07:28 AM	BB DisConnected
+Information	12/05/16 10:09:25 AM	Ideas Refreshed
+Information	12/05/16 10:09:25 AM	Refreshed - False
+Information	12/05/16 10:09:25 AM	Tick identified
+Information	12/05/16 10:09:26 AM	BB DisConnected
+Information	12/05/16 10:11:26 AM	Ideas Refreshed
+Information	12/05/16 10:11:26 AM	Refreshed - False
+Information	12/05/16 10:11:26 AM	Tick identified
+Information	12/05/16 10:11:27 AM	BB DisConnected
+Information	12/05/16 10:13:25 AM	Ideas Refreshed
+Information	12/05/16 10:13:25 AM	Refreshed - False
+Information	12/05/16 10:13:25 AM	Tick identified
+Information	12/05/16 10:13:26 AM	BB DisConnected
+Information	12/05/16 10:15:26 AM	Ideas Refreshed
+Information	12/05/16 10:15:26 AM	Refreshed - False
+Information	12/05/16 10:15:26 AM	Tick identified
+Information	12/05/16 10:15:27 AM	BB DisConnected
+Information	12/05/16 10:17:26 AM	Ideas Refreshed
+Information	12/05/16 10:17:26 AM	Refreshed - False
+Information	12/05/16 10:17:26 AM	Tick identified
+Information	12/05/16 10:17:27 AM	BB DisConnected
+Information	12/05/16 10:19:26 AM	Ideas Refreshed
+Information	12/05/16 10:19:26 AM	Refreshed - False
+Information	12/05/16 10:19:26 AM	Tick identified
+Information	12/05/16 10:19:27 AM	BB DisConnected
+Information	12/05/16 10:21:26 AM	Ideas Refreshed
+Information	12/05/16 10:21:26 AM	Refreshed - False
+Information	12/05/16 10:21:26 AM	Tick identified
+Information	12/05/16 10:21:27 AM	BB DisConnected
+Information	12/05/16 10:23:25 AM	Ideas Refreshed
+Information	12/05/16 10:23:25 AM	Refreshed - False
+Information	12/05/16 10:23:25 AM	Tick identified
+Information	12/05/16 10:23:27 AM	BB DisConnected
+Information	12/05/16 10:25:26 AM	Ideas Refreshed
+Information	12/05/16 10:25:26 AM	Refreshed - False
+Information	12/05/16 10:25:26 AM	Tick identified
+Information	12/05/16 10:25:28 AM	BB DisConnected
+Information	12/05/16 10:27:26 AM	Ideas Refreshed
+Information	12/05/16 10:27:26 AM	Refreshed - False
+Information	12/05/16 10:27:26 AM	Tick identified
+Information	12/05/16 10:27:27 AM	BB DisConnected
+Information	12/05/16 10:29:26 AM	Ideas Refreshed
+Information	12/05/16 10:29:26 AM	Refreshed - False
+Information	12/05/16 10:29:26 AM	Tick identified
+Information	12/05/16 10:29:27 AM	BB DisConnected
+Information	12/05/16 10:31:26 AM	Ideas Refreshed
+Information	12/05/16 10:31:26 AM	Refreshed - False
+Information	12/05/16 10:31:26 AM	Tick identified
+Information	12/05/16 10:31:27 AM	BB DisConnected
+Information	12/05/16 10:33:26 AM	Ideas Refreshed
+Information	12/05/16 10:33:26 AM	Refreshed - False
+Information	12/05/16 10:33:26 AM	Tick identified
+Information	12/05/16 10:33:27 AM	BB DisConnected
+Information	12/05/16 10:35:26 AM	Ideas Refreshed
+Information	12/05/16 10:35:26 AM	Refreshed - False
+Information	12/05/16 10:35:26 AM	Tick identified
+Information	12/05/16 10:35:27 AM	BB DisConnected
+Information	12/05/16 10:37:26 AM	Ideas Refreshed
+Information	12/05/16 10:37:26 AM	Refreshed - False
+Information	12/05/16 10:37:26 AM	Tick identified
+Information	12/05/16 10:37:27 AM	BB DisConnected
+Information	12/05/16 10:39:26 AM	Ideas Refreshed
+Information	12/05/16 10:39:26 AM	Refreshed - False
+Information	12/05/16 10:39:26 AM	Tick identified
+Information	12/05/16 10:39:27 AM	BB DisConnected
+Information	12/05/16 10:41:25 AM	Ideas Refreshed
+Information	12/05/16 10:41:25 AM	Refreshed - False
+Information	12/05/16 10:41:25 AM	Tick identified
+Information	12/05/16 10:41:27 AM	BB DisConnected
+Information	12/05/16 10:43:26 AM	Ideas Refreshed
+Information	12/05/16 10:43:26 AM	Refreshed - False
+Information	12/05/16 10:43:26 AM	Tick identified
+Information	12/05/16 10:43:27 AM	BB DisConnected
+Information	12/05/16 10:45:26 AM	Ideas Refreshed
+Information	12/05/16 10:45:26 AM	Refreshed - False
+Information	12/05/16 10:45:26 AM	Tick identified
+Information	12/05/16 10:45:27 AM	BB DisConnected
+Information	12/05/16 10:47:27 AM	Ideas Refreshed
+Information	12/05/16 10:47:27 AM	Refreshed - False
+Information	12/05/16 10:47:27 AM	Tick identified
+Information	12/05/16 10:47:28 AM	BB DisConnected
+Information	12/05/16 12:21:43 PM	Ideas Refreshed
+Information	12/05/16 12:21:45 PM	BB DisConnected
+Information	12/05/16 12:22:00 PM	SendMail:  Creating SMTP Object 
+Error	12/05/16 12:22:01 PM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Project\SL_TP\UnwindTicket\UnwindTicket\Logger.cs:line 87

@@ -1,0 +1,1304 @@
+Information	10/05/16 2:07:09 PM	Ideas Refreshed
+Information	10/05/16 2:08:52 PM	Ideas Refreshed
+Information	10/05/16 2:10:52 PM	Ideas Refreshed
+Information	10/05/16 2:12:52 PM	Ideas Refreshed
+Information	10/05/16 2:13:02 PM	SendMail:  Creating Mail message 
+Information	10/05/16 2:13:02 PM	SendMail:  Creating SMTP Object 
+Error	10/05/16 2:13:02 PM	SendMail: Failure sending mail.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/16 2:14:55 PM	SendMail:  Creating Mail message 
+Information	10/05/16 2:14:55 PM	SendMail:  Creating SMTP Object 
+Information	10/05/16 2:17:53 PM	Ideas Refreshed
+Information	10/05/16 2:24:03 PM	Ideas Refreshed
+Information	10/05/16 2:27:54 PM	Ideas Refreshed
+Information	10/05/16 2:29:51 PM	Ideas Refreshed
+Information	10/05/16 2:31:51 PM	Ideas Refreshed
+Information	10/05/16 2:33:52 PM	Ideas Refreshed
+Information	10/05/16 2:35:51 PM	Ideas Refreshed
+Information	10/05/16 2:37:52 PM	Ideas Refreshed
+Information	10/05/16 2:39:51 PM	Ideas Refreshed
+Information	10/05/16 2:41:51 PM	Ideas Refreshed
+Information	10/05/16 2:43:51 PM	Ideas Refreshed
+Information	10/05/16 2:45:51 PM	Ideas Refreshed
+Information	10/05/16 2:47:51 PM	Ideas Refreshed
+Information	10/05/16 2:50:02 PM	Ideas Refreshed
+Information	10/05/16 3:06:25 PM	Ideas Refreshed
+Information	10/05/16 3:06:58 PM	Ideas Refreshed
+Information	10/05/16 3:07:13 PM	Ideas Refreshed
+Information	10/05/16 3:09:13 PM	Ideas Refreshed
+Information	10/05/16 3:11:13 PM	Ideas Refreshed
+Information	10/05/16 3:13:13 PM	Ideas Refreshed
+Information	10/05/2016 15:15:47	Ideas Refreshed
+Information	10/05/2016 15:30:06	Ideas Refreshed
+Information	10/05/2016 15:30:26	Ideas Refreshed
+Information	10/05/2016 15:31:31	Ideas Refreshed
+Information	10/05/2016 15:36:03	Ideas Refreshed
+Information	10/05/16 3:37:23 PM	Ideas Refreshed
+Information	10/05/16 3:38:36 PM	Ideas Refreshed
+Information	10/05/16 3:40:08 PM	Ideas Refreshed
+Information	10/05/2016 15:41:53	Ideas Refreshed
+Information	10/05/2016 15:42:22	UCG IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:42:22	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:22	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:42:27	UCG IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:42:27	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:27	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:42:32	ERICB SS unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:42:32	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:32	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:42:36	ERICB SS unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:42:36	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:36	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:42:40	BMPS IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:42:40	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:40	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:42:44	BMPS IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:42:44	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:44	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:42:49	CA FP unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:42:49	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:49	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:42:53	CA FP unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:42:53	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:53	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:42:57	INCH LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:42:57	SendMail:  Creating Mail message 
+Information	10/05/2016 15:42:57	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:01	INCH LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:43:01	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:01	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:05	INCH LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:43:05	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:05	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:10	TEL2B SS unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:43:10	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:10	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:14	TEL2B SS unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:43:14	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:14	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:18	TEL2B SS unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:43:18	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:18	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:22	BP/ LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:43:22	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:22	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:27	BP/ LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:43:27	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:27	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:31	BP/ LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:43:31	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:31	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:35	VWS DC unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:43:35	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:35	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:39	VWS DC unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:43:39	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:39	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:43	VWS DC unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:43:43	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:43	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:47	 unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:43:47	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:47	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:52	 unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:43:52	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:52	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:43:56	 unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:43:56	SendMail:  Creating Mail message 
+Information	10/05/2016 15:43:56	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:00	NRE1V FH unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:44:00	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:00	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:04	NRE1V FH unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:44:04	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:04	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:08	NRE1V FH unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:44:08	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:08	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:13	VGA INDEX unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:44:13	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:13	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:17	VGA INDEX unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:44:17	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:17	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:21	VGA INDEX unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:44:21	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:21	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:25	NOKIA FH unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:44:25	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:25	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:30	NOKIA FH unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:44:30	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:30	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:34	NOKIA FH unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:44:34	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:34	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:38	STAN LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:44:38	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:38	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:43	STAN LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:44:43	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:43	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:47	STAN LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:44:47	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:47	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:51	UCG IM unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:44:51	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:51	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:44:56	UCG IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:44:56	SendMail:  Creating Mail message 
+Information	10/05/2016 15:44:56	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:00	UCG IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:45:00	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:00	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:04	LLOY LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:45:04	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:04	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:08	LLOY LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:45:08	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:08	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:13	LLOY LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:45:13	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:13	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:17	BMPS IM unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:45:17	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:17	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:21	BMPS IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:45:21	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:21	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:25	BMPS IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:45:25	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:25	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:29	CA FP unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:45:29	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:29	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:34	CA FP unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:45:34	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:34	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:38	CA FP unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:45:38	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:38	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:42	MAERSKB DC unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:45:42	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:42	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:46	MAERSKB DC unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:45:46	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:46	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:50	MAERSKB DC unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:45:50	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:50	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:55	FCA IM unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:45:55	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:55	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:45:59	FCA IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:45:59	SendMail:  Creating Mail message 
+Information	10/05/2016 15:45:59	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:03	FCA IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:46:03	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:03	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:08	HEI GY unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:46:08	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:08	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:12	HEI GY unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:46:12	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:12	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:16	HEI GY unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:46:16	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:16	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:20	BP/ LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:46:20	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:20	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:24	BP/ LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:46:24	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:24	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:28	BP/ LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:46:28	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:28	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:33	VWS DC unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:46:33	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:33	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:37	VWS DC unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:46:37	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:37	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:41	VWS DC unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:46:41	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:41	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:46	VCT LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:46:46	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:46	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:50	VCT LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:46:50	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:50	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:54	VCT LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:46:54	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:54	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:46:58	GETIB SS unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:46:58	SendMail:  Creating Mail message 
+Information	10/05/2016 15:46:58	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:02	GETIB SS unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:47:02	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:02	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:06	GETIB SS unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:47:06	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:06	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:11	NRE1V FH unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:47:11	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:11	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:15	NRE1V FH unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:47:15	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:15	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:19	NRE1V FH unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:47:19	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:19	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:23	ATLN VX unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:47:23	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:23	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:28	ATLN VX unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:47:28	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:28	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:32	ATLN VX unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:47:32	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:32	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:36	VGA INDEX unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:47:36	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:36	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:40	VGA INDEX unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:47:40	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:40	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:44	VGA INDEX unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:47:44	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:44	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:48	NOKIA FH unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:47:48	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:48	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:53	NOKIA FH unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:47:53	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:53	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:47:57	NOKIA FH unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:47:57	SendMail:  Creating Mail message 
+Information	10/05/2016 15:47:57	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:01	STAN LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:48:01	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:01	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:05	STAN LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:48:05	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:05	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:10	STAN LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:48:10	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:10	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:14	UCG IM unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:48:14	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:14	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:18	UCG IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:48:18	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:18	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:22	UCG IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:48:22	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:22	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:27	LLOY LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:48:27	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:27	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:31	LLOY LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:48:31	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:31	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:35	LLOY LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:48:35	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:35	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:39	 unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:48:39	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:39	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:43	 unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:48:43	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:43	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:48	 unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:48:48	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:48	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:52	FR FP unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:48:52	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:52	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:48:56	FR FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:48:56	SendMail:  Creating Mail message 
+Information	10/05/2016 15:48:56	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:01	FR FP unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:49:01	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:01	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:05	FR FP unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:49:05	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:05	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:10	BARC LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:49:10	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:10	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:14	BARC LN unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:49:14	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:14	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:18	BARC LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:49:18	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:18	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:22	BARC LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:49:22	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:22	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:26	MAERSKB DC unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:49:26	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:26	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:30	MAERSKB DC unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:49:30	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:30	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:35	MAERSKB DC unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:49:35	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:35	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:40	MAERSKB DC unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:49:40	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:40	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:44	BP/ LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:49:44	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:44	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:49	BP/ LN unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:49:49	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:49	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:53	BP/ LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:49:53	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:53	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:49:57	BP/ LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:49:57	SendMail:  Creating Mail message 
+Information	10/05/2016 15:49:57	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:01	ERICB SS unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:50:01	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:01	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:06	ERICB SS unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:50:06	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:06	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:10	ERICB SS unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:50:10	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:10	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:14	ERICB SS unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:50:14	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:14	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:18	VWS DC unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:50:18	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:18	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:22	VWS DC unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:50:22	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:22	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:26	VWS DC unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:50:26	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:26	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:31	VWS DC unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:50:31	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:31	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:35	CA FP unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:50:35	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:35	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:39	CA FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:50:39	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:39	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:43	CA FP unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:50:43	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:43	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:48	CA FP unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:50:48	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:48	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:52	SFER IM unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:50:52	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:52	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:50:56	SFER IM unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:50:56	SendMail:  Creating Mail message 
+Information	10/05/2016 15:50:56	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:00	SFER IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:51:00	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:00	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:04	SFER IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:51:04	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:04	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:09	LGEN LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:51:09	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:09	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:13	LGEN LN unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:51:13	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:13	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:17	LGEN LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:51:17	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:17	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:21	LGEN LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:51:21	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:21	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:25	MRK GY unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:51:25	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:25	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:29	MRK GY unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:51:29	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:29	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:34	MRK GY unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:51:34	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:34	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:38	MRK GY unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:51:38	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:38	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:42	NRE1V FH unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:51:42	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:42	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:46	NRE1V FH unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:51:46	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:46	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:51	NRE1V FH unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:51:51	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:51	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:55	NRE1V FH unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:51:55	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:55	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:51:59	VNA GY unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:51:59	SendMail:  Creating Mail message 
+Information	10/05/2016 15:51:59	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:03	VNA GY unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:52:03	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:03	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:07	VNA GY unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:52:07	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:07	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:11	VNA GY unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:52:11	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:11	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:16	GETIB SS unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:52:16	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:16	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:20	GETIB SS unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:52:20	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:20	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:24	GETIB SS unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:52:24	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:24	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:29	GETIB SS unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:52:29	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:29	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:33	UBI IM unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:52:33	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:33	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:38	UBI IM unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:52:38	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:38	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:42	UBI IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:52:42	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:42	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:46	UBI IM unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2936,325377
+Information	10/05/2016 15:52:46	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:46	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:50	UBI IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:52:50	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:50	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:54	UBI IM unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2936,325679
+Information	10/05/2016 15:52:54	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:54	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:52:59	BMPS IM unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:52:59	SendMail:  Creating Mail message 
+Information	10/05/2016 15:52:59	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:03	BMPS IM unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:53:03	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:03	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:07	BMPS IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:53:07	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:07	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:12	BMPS IM unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2936,325377
+Information	10/05/2016 15:53:12	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:12	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:16	BMPS IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:53:16	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:16	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:20	BMPS IM unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2936,325679
+Information	10/05/2016 15:53:20	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:20	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:24	TEL2B SS unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:53:24	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:24	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:29	TEL2B SS unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:53:29	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:29	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:33	TEL2B SS unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:53:33	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:33	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:37	TEL2B SS unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2936,325377
+Information	10/05/2016 15:53:37	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:37	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:41	TEL2B SS unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:53:41	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:41	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:45	TEL2B SS unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2936,325679
+Information	10/05/2016 15:53:45	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:45	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:49	ATLN VX unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2936,325299
+Information	10/05/2016 15:53:49	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:49	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:53	ATLN VX unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2936,325333
+Information	10/05/2016 15:53:53	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:53	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:53:58	ATLN VX unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2936,325336
+Information	10/05/2016 15:53:58	SendMail:  Creating Mail message 
+Information	10/05/2016 15:53:58	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:02	ATLN VX unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2936,325377
+Information	10/05/2016 15:54:02	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:02	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:06	ATLN VX unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2936,325607
+Information	10/05/2016 15:54:06	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:06	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:10	ATLN VX unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2936,325679
+Information	10/05/2016 15:54:10	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:10	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:15	VGA INDEX unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2937,325299
+Information	10/05/2016 15:54:15	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:15	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:19	VGA INDEX unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2937,325333
+Information	10/05/2016 15:54:19	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:19	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:23	VGA INDEX unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2937,325336
+Information	10/05/2016 15:54:23	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:23	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:27	VGA INDEX unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2937,325377
+Information	10/05/2016 15:54:27	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:27	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:32	VGA INDEX unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2937,325607
+Information	10/05/2016 15:54:32	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:32	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:36	VGA INDEX unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2937,325679
+Information	10/05/2016 15:54:36	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:36	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:40	NOKIA FH unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2937,325299
+Information	10/05/2016 15:54:40	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:40	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:44	NOKIA FH unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2937,325333
+Information	10/05/2016 15:54:44	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:44	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:49	NOKIA FH unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2937,325336
+Information	10/05/2016 15:54:49	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:49	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:53	NOKIA FH unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2937,325377
+Information	10/05/2016 15:54:53	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:53	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:54:57	NOKIA FH unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2937,325607
+Information	10/05/2016 15:54:57	SendMail:  Creating Mail message 
+Information	10/05/2016 15:54:57	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:01	NOKIA FH unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2937,325679
+Information	10/05/2016 15:55:01	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:01	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:21	STAN LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2937,325299
+Information	10/05/2016 15:55:21	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:21	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:28	STAN LN unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2937,325333
+Information	10/05/2016 15:55:28	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:28	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:33	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:33	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:34	STAN LN unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.942,2988.37068654563,2937,325336
+Information	10/05/2016 15:55:34	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:34	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:38	STAN LN unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2937,325377
+Information	10/05/2016 15:55:38	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:38	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:43	STAN LN unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.942,3050.60327212132,2937,325607
+Information	10/05/2016 15:55:43	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:43	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:47	STAN LN unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2937,325679
+Information	10/05/2016 15:55:47	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:47	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:51	UCG IM unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2937,325299
+Information	10/05/2016 15:55:51	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:51	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:55	UCG IM unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.85,2987.36129203693,2937,325333
+Information	10/05/2016 15:55:55	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:55	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:55:59	UCG IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.948,2988.37068654563,2937,325336
+Information	10/05/2016 15:55:59	SendMail:  Creating Mail message 
+Information	10/05/2016 15:55:59	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:56:04	UCG IM unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2937,325377
+Information	10/05/2016 15:56:04	SendMail:  Creating Mail message 
+Information	10/05/2016 15:56:04	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:56:08	UCG IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.948,3050.60327212132,2937,325607
+Information	10/05/2016 15:56:08	SendMail:  Creating Mail message 
+Information	10/05/2016 15:56:08	SendMail:  Creating SMTP Object 
+Information	10/05/2016 15:59:10	Ideas Refreshed
+Information	10/05/2016 16:00:58	Ideas Refreshed
+Information	10/05/2016 16:01:22	Ideas Refreshed
+Error	10/05/2016 16:01:31	SubscriptionEvent Object reference not set to an instance of an object.	   at UnwindTicket.OpenIdeas.CheckSL_TP(String ticker) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\OpenIdeas.cs:line 303
+   at UnwindTicket.OpenIdeas.SubscriptionResponse(Event eventObj) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\OpenIdeas.cs:line 492
+   at UnwindTicket.OpenIdeas.SubscriptionEvent(Event eventObj, Session session) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\OpenIdeas.cs:line 422
+Information	10/05/2016 16:02:18	Ideas Refreshed
+Information	10/05/2016 16:03:07	Ideas Refreshed
+Information	10/05/2016 16:04:10	LAND LN unwinded IdeaId:1883111 result:{"status":"Unsuccessful"}
+1104,1179,3041.83235636941,2943,325410
+Information	10/05/2016 16:04:10	SendMail:  Creating Mail message 
+Information	10/05/2016 16:04:10	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:04:12	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:04:29	TSCO LN unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,160.05,3040.85053833442,2943,325387
+Information	10/05/2016 16:04:29	SendMail:  Creating Mail message 
+Information	10/05/2016 16:04:29	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:04:32	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:04:42	TSCO LN unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,160.05,3057.00582058375,2943,325553
+Information	10/05/2016 16:04:42	SendMail:  Creating Mail message 
+Information	10/05/2016 16:04:42	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:04:44	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:05:27	Ideas Refreshed
+Information	10/05/2016 16:05:45	FR FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.5,2987.36129203693,2943,325333
+Information	10/05/2016 16:05:45	SendMail:  Creating Mail message 
+Information	10/05/2016 16:05:45	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:05:55	PNDORA DC unwinded IdeaId:1883273 result:{"status":"Unsuccessful"}
+841.351254783399,943.5,2896.88173798644,2943,325690
+Information	10/05/2016 16:05:55	SendMail:  Creating Mail message 
+Information	10/05/2016 16:05:55	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:05:59	PNDORA DC unwinded IdeaId:1883274 result:{"status":"Unsuccessful"}
+841.498309184416,943.5,2895.52276255778,2943,325692
+Information	10/05/2016 16:05:59	SendMail:  Creating Mail message 
+Information	10/05/2016 16:05:59	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:06:03	TSCO LN unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,160,3040.85053833442,2943,325387
+Information	10/05/2016 16:06:03	SendMail:  Creating Mail message 
+Information	10/05/2016 16:06:03	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:06:07	TSCO LN unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,160,3057.00582058375,2943,325553
+Information	10/05/2016 16:06:07	SendMail:  Creating Mail message 
+Information	10/05/2016 16:06:07	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:06:12	 unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,683,2943.85380142689,2943,325299
+Information	10/05/2016 16:06:12	SendMail:  Creating Mail message 
+Information	10/05/2016 16:06:12	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:06:16	UBI IM unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.26,3033.74009465275,2943,325377
+Information	10/05/2016 16:06:16	SendMail:  Creating Mail message 
+Information	10/05/2016 16:06:16	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:06:20	UBI IM unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.26,2904.05348976858,2943,325679
+Information	10/05/2016 16:06:20	SendMail:  Creating Mail message 
+Information	10/05/2016 16:06:20	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:06:24	ISAT LN unwinded IdeaId:1883278 result:{"status":"Unsuccessful"}
+886.575208667634,816.5,2912.21174953982,2942,325710
+Information	10/05/2016 16:06:25	SendMail:  Creating Mail message 
+Information	10/05/2016 16:06:25	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:06:46	LAND LN unwinded IdeaId:1883111 result:{"status":"Unsuccessful"}
+1104,1179,3041.83235636941,2941,325410
+Information	10/05/2016 16:06:46	SendMail:  Creating Mail message 
+Information	10/05/2016 16:06:46	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:07:51	ERICB SS unwinded IdeaId:1883135 result:{"status":"Unsuccessful"}
+72.7693627870847,62.25,3078.02529029719,2941,325438
+Information	10/05/2016 16:07:51	SendMail:  Creating Mail message 
+Information	10/05/2016 16:07:51	SendMail:  Creating SMTP Object 
+Information	10/05/2016 16:11:40	Ideas Refreshed
+Information	10/05/2016 16:11:46	ERICB SS unwinded IdeaId:1883135 result:{"status":"Unsuccessful"}
+72.7693627870847,62.15,3078.02529029719,2940,325438
+Information	10/05/2016 16:11:46	SendMail:  Creating Mail message 
+Information	10/05/2016 16:11:46	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:12:59	UpdateGridObject reference not set to an instance of an object.	   at UnwindTicket.OpenIdeas.FormatGrid() in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\OpenIdeas.cs:line 175
+Information	10/05/2016 16:12:59	Refresh: Value cannot be null.
+Parameter name: source	   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at UnwindTicket.OpenIdeas.Refresh() in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\OpenIdeas.cs:line 122
+Error	10/05/2016 16:13:58	UpdateGridObject reference not set to an instance of an object.	   at UnwindTicket.OpenIdeas.FormatGrid() in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\OpenIdeas.cs:line 175
+Information	10/05/2016 16:13:58	Refresh: Value cannot be null.
+Parameter name: source	   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at UnwindTicket.OpenIdeas.Refresh() in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\OpenIdeas.cs:line 122
+Information	10/05/2016 16:15:06	Ideas Refreshed
+Information	10/05/2016 16:16:06	Ideas Refreshed
+Information	10/05/2016 16:16:28	Ideas Refreshed
+Information	10/05/2016 16:19:37	Ideas Refreshed
+Information	10/05/2016 16:19:46	ERICB SS unwinded IdeaId:1883135 result:{"status":"Unsuccessful"}
+72.7693627870847,62.25,3078.02529029719,2942,325438
+Information	10/05/2016 16:19:46	SendMail:  Creating Mail message 
+Information	10/05/2016 16:19:46	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:19:48	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:19:59	LAND LN unwinded IdeaId:1883111 result:{"status":"Unsuccessful"}
+1104,1178,3041.83235636941,2941,325410
+Information	10/05/2016 16:19:59	SendMail:  Creating Mail message 
+Information	10/05/2016 16:19:59	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:20:01	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:20:08	UBI IM unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2941,325377
+Information	10/05/2016 16:20:08	SendMail:  Creating Mail message 
+Information	10/05/2016 16:20:08	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:20:10	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:20:11	UBI IM unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2941,325679
+Information	10/05/2016 16:20:11	SendMail:  Creating Mail message 
+Information	10/05/2016 16:20:11	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:20:12	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:20:13	FR FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.6,2987.36129203693,2941,325333
+Information	10/05/2016 16:20:13	SendMail:  Creating Mail message 
+Information	10/05/2016 16:20:13	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:20:15	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:20:16	TSCO LN unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,159.85,3040.85053833442,2941,325387
+Information	10/05/2016 16:20:16	SendMail:  Creating Mail message 
+Information	10/05/2016 16:20:16	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:20:18	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:20:18	TSCO LN unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,159.85,3057.00582058375,2941,325553
+Information	10/05/2016 16:20:18	SendMail:  Creating Mail message 
+Information	10/05/2016 16:20:18	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:20:20	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:21:07	ISAT LN unwinded IdeaId:1883278 result:{"status":"Unsuccessful"}
+886.575208667634,817.5,2912.21174953982,2941,325710
+Information	10/05/2016 16:21:07	SendMail:  Creating Mail message 
+Information	10/05/2016 16:21:07	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:21:10	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Error	10/05/2016 16:21:58	SubscriptionEvent Cannot access a disposed object.
+Object name: 'OpenIdeas'.	   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   at UnwindTicket.OpenIdeas.SubscriptionEvent(Event eventObj, Session session) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\OpenIdeas.cs:line 430
+Information	10/05/2016 16:22:12	Ideas Refreshed
+Information	10/05/2016 16:22:33	Ideas Refreshed
+Information	10/05/2016 16:22:39	ERICB SS unwinded IdeaId:1883135 result:{"status":"Unsuccessful"}
+72.7693627870847,62.3,3078.02529029719,2943,325438
+Information	10/05/2016 16:22:39	SendMail:  Creating Mail message 
+Information	10/05/2016 16:22:39	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:22:41	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:22:41	UBI IM unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.244,3033.74009465275,2943,325377
+Information	10/05/2016 16:22:41	SendMail:  Creating Mail message 
+Information	10/05/2016 16:22:41	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:22:44	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:22:44	UBI IM unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.244,2904.05348976858,2943,325679
+Information	10/05/2016 16:22:44	SendMail:  Creating Mail message 
+Information	10/05/2016 16:22:44	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:22:46	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:22:48	LAND LN unwinded IdeaId:1883111 result:{"status":"Unsuccessful"}
+1104,1178,3041.83235636941,2943,325410
+Information	10/05/2016 16:22:48	SendMail:  Creating Mail message 
+Information	10/05/2016 16:22:48	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:22:50	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:23:09	ISAT LN unwinded IdeaId:1883278 result:{"status":"Unsuccessful"}
+886.575208667634,816.5,2912.21174953982,2942,325710
+Information	10/05/2016 16:23:09	SendMail:  Creating Mail message 
+Information	10/05/2016 16:23:09	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:23:11	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:23:22	FR FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.6,2987.36129203693,2942,325333
+Information	10/05/2016 16:23:22	SendMail:  Creating Mail message 
+Information	10/05/2016 16:23:22	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:23:24	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:23:39	TSCO LN unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,159.8,3040.85053833442,2942,325387
+Information	10/05/2016 16:23:39	SendMail:  Creating Mail message 
+Information	10/05/2016 16:23:39	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:23:41	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:23:41	TSCO LN unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,159.8,3057.00582058375,2942,325553
+Information	10/05/2016 16:23:41	SendMail:  Creating Mail message 
+Information	10/05/2016 16:23:41	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:23:43	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:25:19	INCH LN unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,684.5,2943.85380142689,2944,325299
+Information	10/05/2016 16:25:19	SendMail:  Creating Mail message 
+Information	10/05/2016 16:25:19	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:25:21	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:25:30	UCG IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.934,2988.37068654563,2944,325336
+Information	10/05/2016 16:25:30	SendMail:  Creating Mail message 
+Information	10/05/2016 16:25:30	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:25:32	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:25:33	UCG IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.934,3050.60327212132,2944,325607
+Information	10/05/2016 16:25:33	SendMail:  Creating Mail message 
+Information	10/05/2016 16:25:33	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:25:35	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:38:16	Ideas Refreshed
+Information	10/05/2016 16:38:34	 unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.928,2988.37068654563,2941,325336
+Information	10/05/2016 16:38:34	SendMail:  Creating Mail message 
+Information	10/05/2016 16:38:34	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:38:36	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:38:37	 unwinded IdeaId:1883135 result:{"status":"Unsuccessful"}
+72.7693627870847,62.25,3078.02529029719,2941,325438
+Information	10/05/2016 16:38:37	SendMail:  Creating Mail message 
+Information	10/05/2016 16:38:37	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:38:38	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:38:39	 unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.928,3050.60327212132,2941,325607
+Information	10/05/2016 16:38:39	SendMail:  Creating Mail message 
+Information	10/05/2016 16:38:39	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:38:41	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:38:43	FR FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.55,2987.36129203693,2941,325333
+Information	10/05/2016 16:38:43	SendMail:  Creating Mail message 
+Information	10/05/2016 16:38:43	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:38:44	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:39:04	LAND LN unwinded IdeaId:1883111 result:{"status":"Unsuccessful"}
+1104,1178,3041.83235636941,2941,325410
+Information	10/05/2016 16:39:04	SendMail:  Creating Mail message 
+Information	10/05/2016 16:39:04	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:39:06	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:39:10	UBI IM unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.24,3033.74009465275,2941,325377
+Information	10/05/2016 16:39:10	SendMail:  Creating Mail message 
+Information	10/05/2016 16:39:10	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:39:12	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:39:13	UBI IM unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.24,2904.05348976858,2941,325679
+Information	10/05/2016 16:39:13	SendMail:  Creating Mail message 
+Information	10/05/2016 16:39:13	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:39:15	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:39:37	TSCO LN unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,159.75,3040.85053833442,2941,325387
+Information	10/05/2016 16:39:37	SendMail:  Creating Mail message 
+Information	10/05/2016 16:39:37	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:39:39	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:39:40	TSCO LN unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,159.75,3057.00582058375,2941,325553
+Information	10/05/2016 16:39:40	SendMail:  Creating Mail message 
+Information	10/05/2016 16:39:40	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:39:42	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:39:51	ISAT LN unwinded IdeaId:1883278 result:{"status":"Unsuccessful"}
+886.575208667634,819.5,2912.21174953982,2941,325710
+Information	10/05/2016 16:39:51	SendMail:  Creating Mail message 
+Information	10/05/2016 16:39:51	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:39:53	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:41:31	Ideas Refreshed
+Information	10/05/2016 16:41:49	ISAT LN unwinded IdeaId:1883278 result:{"status":"Unsuccessful"}
+886.575208667634,820,2912.21174953982,2941,325710
+Information	10/05/2016 16:41:49	SendMail:  Creating Mail message 
+Information	10/05/2016 16:41:49	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:41:51	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:41:52	LAND LN unwinded IdeaId:1883111 result:{"status":"Unsuccessful"}
+1104,1178,3041.83235636941,2939,325410
+Information	10/05/2016 16:41:52	SendMail:  Creating Mail message 
+Information	10/05/2016 16:41:52	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:41:54	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:42:11	FR FP unwinded IdeaId:1883067 result:{"status":"Unsuccessful"}
+133.243231256519,139.6,2987.36129203693,2940,325333
+Information	10/05/2016 16:42:11	SendMail:  Creating Mail message 
+Information	10/05/2016 16:42:11	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:42:13	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:42:15	UBI IM unwinded IdeaId:1883091 result:{"status":"Unsuccessful"}
+3.78826898572919,3.238,3033.74009465275,2940,325377
+Information	10/05/2016 16:42:15	SendMail:  Creating Mail message 
+Information	10/05/2016 16:42:15	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:42:17	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:42:19	UBI IM unwinded IdeaId:1883266 result:{"status":"Unsuccessful"}
+3.38607474807719,3.238,2904.05348976858,2940,325679
+Information	10/05/2016 16:42:19	SendMail:  Creating Mail message 
+Information	10/05/2016 16:42:19	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:42:21	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:43:20	 unwinded IdeaId:1883046 result:{"status":"Unsuccessful"}
+721.352322880213,685,2943.85380142689,2943,325299
+Information	10/05/2016 16:43:20	SendMail:  Creating Mail message 
+Information	10/05/2016 16:43:20	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:43:22	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:44:56	TSCO LN unwinded IdeaId:1883099 result:{"status":"Unsuccessful"}
+180.995390774178,159.85,3040.85053833442,2941,325387
+Information	10/05/2016 16:44:56	SendMail:  Creating Mail message 
+Information	10/05/2016 16:44:56	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:44:58	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:45:01	TSCO LN unwinded IdeaId:1883197 result:{"status":"Unsuccessful"}
+179.44473436666,159.85,3057.00582058375,2941,325553
+Information	10/05/2016 16:45:01	SendMail:  Creating Mail message 
+Information	10/05/2016 16:45:01	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:45:04	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:51:01	UCG IM unwinded IdeaId:1883069 result:{"status":"Unsuccessful"}
+3.27805217291148,2.948,2988.37068654563,2946,325336
+Information	10/05/2016 16:51:01	SendMail:  Creating Mail message 
+Information	10/05/2016 16:51:01	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:51:04	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
+Information	10/05/2016 16:51:17	UCG IM unwinded IdeaId:1883227 result:{"status":"Unsuccessful"}
+3.50034885685406,2.948,3050.60327212132,2946,325607
+Information	10/05/2016 16:51:17	SendMail:  Creating Mail message 
+Information	10/05/2016 16:51:17	SendMail:  Creating SMTP Object 
+Error	10/05/2016 16:51:19	SendMail: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at UnwindTicket.Logger.SendMail(String mailBody, String Subject, String vToEmail) in D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\Logger.cs:line 87
