@@ -251,7 +251,7 @@ namespace UnwindTicket
             # endregion
 
         #region SL and TP
-                bool SL_TP_Running = false;
+        bool SL_TP_Running = false;
         private string CheckSL_TP(string ticker = "")
         {
            if (SL_TP_Running) return "";

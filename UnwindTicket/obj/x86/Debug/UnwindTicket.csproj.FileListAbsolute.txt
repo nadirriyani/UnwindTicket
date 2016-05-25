@@ -43,3 +43,6 @@ D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe.m
 D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.application
 D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
 D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.config
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
