@@ -174,7 +174,7 @@ namespace UnwindTicket.DAL
             try
             {
                 string strEndPoint = string.Empty, strParameters = string.Empty;
-                strEndPoint = "/blotterliveideas";
+                strEndPoint = "/blotterliveideas"; //SP: Name uspBlotterLiveIdeasGet
 
                 var tplResponse = GetResponseFromApi(strEndPoint, strParameters);
                 var lstBlotterLiveIdeas = new List<BlotterLiveIdea>();
@@ -203,7 +203,7 @@ namespace UnwindTicket.DAL
             try
             {
                 string strEndPoint = string.Empty, strParameters = string.Empty;
-                strEndPoint = "/blotterunwindidea/add";
+                strEndPoint = "/blotterunwindidea/add"; //SP Name : uspBlotterUnwindIdeaAdd
 
                 var objBlotterUnwindIdea = new BlotterUnwindIdea();
                 objBlotterUnwindIdea.IdeaId = IdeaId;
