@@ -19,16 +19,16 @@ namespace UnwindTicket.DAL
 
         private static Tuple<HttpStatusCode, string> GetResponseFromApi(string endpoint, string queryString)
         {
-            string strURL = ConfigurationManager.AppSettings["BaseAPIURL"] + "/";
+            string strURL = clsConfig.URL; //ConfigurationManager.AppSettings["BaseAPIURL"] + "/";
             strURL += endpoint + (string.IsNullOrEmpty(queryString) ? "" : "?" + queryString);
 
             System.Net.WebRequest objReq = System.Net.WebRequest.Create(strURL);
             string strResponse = string.Empty;
             try
             {
-                string apiKey = ConfigurationManager.AppSettings["BaseAPIKey"];
-                string userName = ConfigurationManager.AppSettings["userName"];
-                string password = ConfigurationManager.AppSettings["password"];
+                string apiKey = clsConfig.APIKey; //ConfigurationManager.AppSettings["BaseAPIKey"];
+                string userName = clsConfig.UserName; //ConfigurationManager.AppSettings["userName"];
+                string password = clsConfig.Password; //ConfigurationManager.AppSettings["password"];
 
                 ((HttpWebRequest)objReq).KeepAlive = false;
                 ((HttpWebRequest)objReq).Headers.Add("HTTP_ACCEPT_ENCODING", "gzip,deflate,sdch");
@@ -103,16 +103,16 @@ namespace UnwindTicket.DAL
 
         private static string GetResponseFromApiPost(string endpoint, string postData, string type="form")
         {
-            string strURL = ConfigurationManager.AppSettings["BaseAPIURL"] + "/";
+            string strURL = clsConfig.URL; //ConfigurationManager.AppSettings["BaseAPIURL"] + "/";
             strURL += endpoint;
 
             System.Net.WebRequest objReq = System.Net.WebRequest.Create(strURL);
             string strResponse = string.Empty;
             try
             {
-                string apiKey = ConfigurationManager.AppSettings["BaseAPIKey"];
-                string userName = ConfigurationManager.AppSettings["userName"];
-                string password = ConfigurationManager.AppSettings["password"];
+                string apiKey = clsConfig.APIKey; //ConfigurationManager.AppSettings["BaseAPIKey"];
+                string userName = clsConfig.UserName;  //ConfigurationManager.AppSettings["userName"];
+                string password = clsConfig.Password; //ConfigurationManager.AppSettings["password"];
 
                 ((HttpWebRequest)objReq).KeepAlive = false;
                 ((HttpWebRequest)objReq).Headers.Add("HTTP_ACCEPT_ENCODING", "gzip,deflate,sdch");

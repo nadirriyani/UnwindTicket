@@ -36,7 +36,7 @@ namespace UnwindTicket
             try
             {
                 //DataGridView.CheckForIllegalCrossThreadCalls = false;
-                
+                clsConfig.LoadConfig();      
                 tmrRefresh.Interval = (60*2000); //2 Min.
                 tmrRefresh.Enabled = true;
                 tmrRefresh.Start();
@@ -578,9 +578,43 @@ namespace UnwindTicket
 
         #endregion
 
+
+        # region Config
+        private void btnConfig_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DoConfig();
+            }
+            catch { }
+
+        }
+
+        private void DoConfig()
+        {
+            try
+            {
+                Logger.LogEntry("Information", "Config open");
+                Configuration objConfig = new Configuration();
+                objConfig.ShowDialog();
+                //timer1.Stop();
+                //HedgeToolb.ConfigForm cf = new HedgeToolb.ConfigForm(config);
+                //cf.ShowDialog();
+                //config = cf.config;
+                //config.Save();
+                //UpdateConfig();
+            }
+            catch (Exception ex) { Logger.LogEntry("Error", "btnUpdate_Click " + ex.Message + "\t" + ex.StackTrace); }
+
+
+        }
+
+        # endregion
+
+
         #region "Application running check"
 
-       
+
 
 
         #endregion
