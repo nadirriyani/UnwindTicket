@@ -13,6 +13,7 @@ namespace UnwindTicket
 {
     public partial class Configuration : Form
     {
+        public bool ConfigUpdated = false;
         public Configuration()
         {
             InitializeComponent();
@@ -63,6 +64,8 @@ namespace UnwindTicket
                 }
                 clsConfig.LoadConfig();
                 Logger.LogEntry("Information", "Update Finish");
+                MessageBox.Show("Information updated sucessfully", "OTAS");
+                ConfigUpdated = true;
             }
             catch (Exception ex)
             {

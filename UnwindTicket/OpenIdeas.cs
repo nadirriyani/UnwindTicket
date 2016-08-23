@@ -157,7 +157,7 @@ namespace UnwindTicket
         #endregion
 
         #region Methods
-                public override void Refresh()
+            public override void Refresh()
             {
                 try
                 {
@@ -584,32 +584,19 @@ namespace UnwindTicket
         {
             try
             {
-                DoConfig();
-            }
-            catch { }
-
-        }
-
-        private void DoConfig()
-        {
-            try
-            {
                 Logger.LogEntry("Information", "Config open");
                 Configuration objConfig = new Configuration();
                 objConfig.ShowDialog();
-                //timer1.Stop();
-                //HedgeToolb.ConfigForm cf = new HedgeToolb.ConfigForm(config);
-                //cf.ShowDialog();
-                //config = cf.config;
-                //config.Save();
-                //UpdateConfig();
+                if (objConfig.ConfigUpdated)
+                    Refresh();
+
+                objConfig = null;
             }
             catch (Exception ex) { Logger.LogEntry("Error", "btnUpdate_Click " + ex.Message + "\t" + ex.StackTrace); }
 
-
         }
 
-        # endregion
+       # endregion
 
 
         #region "Application running check"

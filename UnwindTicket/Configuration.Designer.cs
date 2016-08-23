@@ -94,7 +94,7 @@
             // 
             this.btnUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.btnUpdate.Location = new System.Drawing.Point(196, 231);
+            this.btnUpdate.Location = new System.Drawing.Point(195, 231);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(87, 32);
             this.btnUpdate.TabIndex = 9;
@@ -107,7 +107,7 @@
             this.btnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.btnClear.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnClear.Location = new System.Drawing.Point(289, 231);
+            this.btnClear.Location = new System.Drawing.Point(288, 231);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(87, 32);
             this.btnClear.TabIndex = 10;
@@ -137,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.CancelButton = this.btnClear;
-            this.ClientSize = new System.Drawing.Size(406, 275);
+            this.ClientSize = new System.Drawing.Size(405, 275);
             this.Controls.Add(this.txtApikey);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnClear);
@@ -149,7 +149,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtURL);
             this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Configuration";
             this.Text = "Configuration";
             this.Load += new System.EventHandler(this.Configuration_Load);
