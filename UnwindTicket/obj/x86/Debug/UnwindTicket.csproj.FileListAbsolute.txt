@@ -52,7 +52,6 @@ D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Bloomberglp.Blpapi.dl
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.dll
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.xml
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Log.resources
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeas.resources
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Properties.Resources.resources
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csproj.GenerateResource.Cache
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.TrustInfo.xml
@@ -61,3 +60,5 @@ D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.appl
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Configuration.resources
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csprojResolveAssemblyReference.cache
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeas.resources

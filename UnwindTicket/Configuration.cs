@@ -66,6 +66,7 @@ namespace UnwindTicket
                 Logger.LogEntry("Information", "Update Finish");
                 MessageBox.Show("Information updated sucessfully", "OTAS");
                 ConfigUpdated = true;
+                this.Close();
             }
             catch (Exception ex)
             {
