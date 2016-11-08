@@ -418,7 +418,7 @@ namespace UnwindTicket
                     CorrelationID correlationId = new CorrelationID(ticker);
                     if (correlationIds.Contains(correlationId) == false)
                     {
-                        subscriptions.Add(new Subscription(ticker , fieldsName, "interval=10", correlationId));
+                        subscriptions.Add(new Subscription(ticker , fieldsName, "interval=3", correlationId));
                         this.correlationIds.Add(correlationId);
                     }
                 }
