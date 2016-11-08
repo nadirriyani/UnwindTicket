@@ -4,7 +4,7 @@
   <description asmv2:iconFile="DLL\OTAS.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="UnwindTicket" version="1.0.0.3" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="UnwindTicket" version="1.0.0.4" language="neutral" processorArchitecture="x86" />
     <commandLine file="UnwindTicket.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -68,13 +68,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnwindTicket.exe" size="128512">
-      <assemblyIdentity name="UnwindTicket" version="1.0.0.3" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="UnwindTicket" version="1.0.0.4" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>AW2Ooiw01t2yStuH0GxVJYEt01Y=</dsig:DigestValue>
+        <dsig:DigestValue>lSsKR6MOfCkpKix/tavtpUnCGq8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

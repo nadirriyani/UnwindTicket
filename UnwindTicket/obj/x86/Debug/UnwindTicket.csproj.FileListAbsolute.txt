@@ -60,5 +60,4 @@ D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.appl
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Configuration.resources
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csprojResolveAssemblyReference.cache
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeas.resources
