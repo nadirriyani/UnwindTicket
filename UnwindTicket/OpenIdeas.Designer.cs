@@ -43,6 +43,7 @@
             this.notifySLTP = new System.Windows.Forms.NotifyIcon(this.components);
             this.pictBBconnection = new System.Windows.Forms.PictureBox();
             this.lblBBmessage = new System.Windows.Forms.Label();
+            this.btnIntradayData = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.grvLiveIdea)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictBBconnection)).BeginInit();
@@ -98,7 +99,8 @@
             this.btnRefresh,
             this.btnLog,
             this.mnuVersion,
-            this.btnConfig});
+            this.btnConfig,
+            this.btnIntradayData});
             this.settingsToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.settingsToolStripMenuItem.ForeColor = System.Drawing.Color.Gray;
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
@@ -178,6 +180,15 @@
             this.lblBBmessage.TabIndex = 10;
             this.lblBBmessage.Text = "Bloomberg";
             // 
+            // btnIntradayData
+            // 
+            this.btnIntradayData.BackColor = System.Drawing.Color.Black;
+            this.btnIntradayData.ForeColor = System.Drawing.Color.Gray;
+            this.btnIntradayData.Name = "btnIntradayData";
+            this.btnIntradayData.Size = new System.Drawing.Size(152, 22);
+            this.btnIntradayData.Text = "Intraday Data";
+            this.btnIntradayData.Click += new System.EventHandler(this.btnIntradayData_Click);
+            // 
             // OpenIdeas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,6 +227,7 @@
         private System.Windows.Forms.Label lblBBmessage;
         private System.Windows.Forms.ToolStripMenuItem mnuVersion;
         private System.Windows.Forms.ToolStripMenuItem btnConfig;
+        private System.Windows.Forms.ToolStripMenuItem btnIntradayData;
 
     }
 }

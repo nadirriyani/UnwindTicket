@@ -17,7 +17,7 @@ namespace UnwindTicket
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new OpenIdeas());
-
+          
             string[] args = Environment.GetCommandLineArgs();
             SingleInstanceController controller = new SingleInstanceController();
             controller.Run(args);
@@ -41,7 +41,8 @@ namespace UnwindTicket
             // Here you get the control when any other instance is
             // invoked apart from the first one.
             // You have args here in e.CommandLine.
-
+          
+            
             // You custom code which should be run on other instances
             OpenIdeas frm = MainForm as OpenIdeas;
             frm.Show();
@@ -49,6 +50,7 @@ namespace UnwindTicket
 
         protected override void OnCreateMainForm()
         {
+          
             // Instantiate your main application form
             this.MainForm = new OpenIdeas();
         }

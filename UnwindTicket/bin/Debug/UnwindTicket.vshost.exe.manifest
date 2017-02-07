@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="UnwindTicket.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="UnwindTicket.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="DLL\OTAS.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="UnwindTicket" version="1.0.0.3" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="UnwindTicket" version="1.0.0.4" language="neutral" processorArchitecture="x86" />
     <commandLine file="UnwindTicket.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -55,6 +55,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataClassLibrary.dll" size="738304">
+      <assemblyIdentity name="DataClassLibrary" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>MNv5F4ieBcYUbJ3YAWYUIWiFs4A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="485888">
       <assemblyIdentity name="Newtonsoft.Json" version="8.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -67,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnwindTicket.exe" size="128512">
-      <assemblyIdentity name="UnwindTicket" version="1.0.0.3" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnwindTicket.exe" size="158208">
+      <assemblyIdentity name="UnwindTicket" version="1.0.0.4" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2/74HdmProRSm6Fy+8mOiMkM03Y=</dsig:DigestValue>
+        <dsig:DigestValue>xqOEp9/aET2ltAJXJq1CPqSMTtI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -87,6 +99,15 @@
       <dsig:DigestValue>Plyzeqw01ObsXoGmKha17TO5y3I=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="DLL\DataClassLibrary.dll" size="738304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MNv5F4ieBcYUbJ3YAWYUIWiFs4A=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="DLL\OTAS.ico" size="15086">
     <hash>
       <dsig:Transforms>
@@ -96,13 +117,13 @@
       <dsig:DigestValue>hrT+6bFOuMEhSjlCr8P/WtmpZtE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="UnwindTicket.exe.config" size="1969">
+  <file name="UnwindTicket.exe.config" size="3009">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>LKAkEM7g+I/0rHvExvmMSn4N2wk=</dsig:DigestValue>
+      <dsig:DigestValue>Sc3mFJf0pSTsPKcqy4z9wWC6yww=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

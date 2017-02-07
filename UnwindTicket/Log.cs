@@ -26,7 +26,7 @@ namespace UnwindTicket
                 if (!System.IO.Directory.Exists(LocalHistoryFilePath))
                     System.IO.Directory.CreateDirectory(LocalHistoryFilePath);
 
-                System.IO.StreamReader sr = new System.IO.StreamReader(LocalHistoryFilePath + @"\" +  DateTime.Today.Date.ToString("ddMMyyyy") + ".log", true);
+               System.IO.StreamReader sr = new System.IO.StreamReader(LocalHistoryFilePath + @"\" +  DateTime.Today.Date.ToString("ddMMyyyy") + ".log", true);
                
                string log = sr.ReadToEnd();
                 txtLog.Text = log;

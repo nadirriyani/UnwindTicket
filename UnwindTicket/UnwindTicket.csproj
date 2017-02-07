@@ -81,6 +81,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>DLL\Bloomberglp.Blpapi.dll</HintPath>
     </Reference>
+    <Reference Include="DataClassLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\DataClassLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
@@ -108,8 +112,16 @@
       <DependentUpon>Configuration.cs</DependentUpon>
     </Compile>
     <Compile Include="DAL\APIUtility.cs" />
+    <Compile Include="DAL\BloombergHistoryData.cs" />
     <Compile Include="DAL\DataFetching.cs" />
+    <Compile Include="Entity\Bar.cs" />
     <Compile Include="Entity\Blotter.cs" />
+    <Compile Include="IntradayDataSend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntradayDataSend.Designer.cs">
+      <DependentUpon>IntradayDataSend.cs</DependentUpon>
+    </Compile>
     <Compile Include="Log.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +139,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Configuration.resx">
       <DependentUpon>Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IntradayDataSend.resx">
+      <DependentUpon>IntradayDataSend.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log.resx">
       <DependentUpon>Log.cs</DependentUpon>
@@ -162,6 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DLL\Bloomberglp.Blpapi.dll" />
+    <Content Include="DLL\DataClassLibrary.dll" />
     <Content Include="DLL\OTAS.ico" />
     <None Include="Resources\MidGreen16.png" />
     <None Include="Resources\HighRed16.png" />

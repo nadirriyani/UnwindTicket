@@ -12,6 +12,7 @@ using UnwindTicket.Entity;
 using UnwindTicket.DAL;
 using System.Diagnostics;
 using System.Reflection;
+using System.Configuration;
 
 namespace UnwindTicket
 {
@@ -35,9 +36,8 @@ namespace UnwindTicket
         {
             try
             {
-                //DataGridView.CheckForIllegalCrossThreadCalls = false;
-                clsConfig.LoadConfig();      
-                tmrRefresh.Interval = (60*2000); //2 Min.
+                clsConfig.LoadConfig();
+                tmrRefresh.Interval = (60 * 2000); //2 Min.
                 tmrRefresh.Enabled = true;
                 tmrRefresh.Start();
                 Refresh();
@@ -120,6 +120,17 @@ namespace UnwindTicket
                         Refresh();
                         Logger.LogEntry("Information", "Refreshed Overnight - " + LastRefresh);
                         LastRefresh = DateTime.Now.Date;
+
+                        /**************************Send BB data to Intraday server****************************************************/
+                        DateTime DownloadDate = DateTime.Now.Date.AddDays(-1);
+                        Logger.LogEntry("Information", "Spain and Sector data download start - " + DownloadDate.ToString());
+                        UnwindTicket.DAL.BloombergHistoryData obj = new DAL.BloombergHistoryData();
+                        if (DownloadDate.ToString("dddd").ToUpper() != "SUNDAY" || DownloadDate.ToString("dddd").ToUpper() != "MONDAY") // not required for non tradding days
+                        {
+                            obj.StartRequestDateTime = Convert.ToDateTime(DownloadDate.ToString("dd-MMM-yyyy 00:00:00"));
+                            obj.EndRequestDateTime = Convert.ToDateTime(DownloadDate.ToString("dd-MMM-yyyy 23:59:59"));
+                            obj.ProcessHistoryRequest();
+                        }
                     }
 
                     if (!BBSubscriptionConnected) //if disconnected then refresh all
@@ -127,7 +138,6 @@ namespace UnwindTicket
                         Refresh();
                         Logger.LogEntry("Information", "Refreshed - " + BBSubscriptionConnected.ToString());
                     }
-
 
                     tmrRefresh.Interval = (60 * 2000); //2 Min.
                     tmrRefresh.Enabled = true;
@@ -599,12 +609,28 @@ namespace UnwindTicket
        # endregion
 
 
-        #region "Application running check"
+        # region "Intraday Data"
+        private void btnIntradayData_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                IntradayDataSend objIntradayDataSend = new IntradayDataSend();
+                objIntradayDataSend.Show();
+            }
+            catch (Exception ex)
+            {
+                Logger.LogEntry("Error", "btnIntradayData_Click " + ex.Message + "\t" + ex.StackTrace); 
+            }
+        }
+
+     
+
+
+        # endregion
 
 
 
 
-        #endregion
 
     }
 }
