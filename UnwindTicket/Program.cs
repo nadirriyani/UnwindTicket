@@ -6,8 +6,13 @@ using Microsoft.VisualBasic.ApplicationServices;
 
 namespace UnwindTicket
 {
+
+    public delegate void IntradayDataMessage(string message);
+
     static class Program
     {
+
+   
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

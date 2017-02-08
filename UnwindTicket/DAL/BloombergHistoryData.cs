@@ -16,9 +16,11 @@ namespace UnwindTicket.DAL
 {
     public class BloombergHistoryData
     {
+        
         #region Declaration
         Session session = new Session(new SessionOptions());
-       
+        public event IntradayDataMessage IntradayMessage;
+
         public DateTime StartRequestDateTime = new DateTime(2017, 01, 31, 00, 00, 0, 0);
         public DateTime EndRequestDateTime = new DateTime(2017, 01, 31, 23, 59, 59, 0);
         public string[] BBTickers;
@@ -27,11 +29,6 @@ namespace UnwindTicket.DAL
         
         public List<Bar> IntradayBars = new List<Bar>();
         private BackgroundWorker bwProcess;
-
-        string FTPLocation = ConfigurationManager.AppSettings["FTPLocation"];
-        string FTPUserName = ConfigurationManager.AppSettings["FTPUserName"];
-        string FTPPassword = ConfigurationManager.AppSettings["FTPPassword"];
-        string FTPFolderName = ConfigurationManager.AppSettings["FTPFolderName"];
 
         public string UploadDataLink = ConfigurationManager.AppSettings["UploadDataLink"];
 
@@ -76,12 +73,12 @@ namespace UnwindTicket.DAL
                 bool sessionStarted = session.Start();
                 if (!sessionStarted)
                 {
-                    Logger.LogEntry("Information", "bwProcess_DoWork: " + "Failed to start session.");
+                    Logger.LogEntry("Information", "Intraday Data - bwProcess_DoWork: " + "Failed to start session.");
                     return;
                 }
                 if (!session.OpenService("//blp/refdata"))
                 {
-                    Logger.LogEntry("Information", "bwProcess_DoWork: " + "Failed to open API");
+                    Logger.LogEntry("Information", "Intraday Data - bwProcess_DoWork: " + "Failed to open API");
                     return;
                 }
 
@@ -98,7 +95,7 @@ namespace UnwindTicket.DAL
                     requestAuth.Set("security", symbol); //+ " EQUITY"
                     // Assign interval and fill bars
                     requestAuth.Set("interval", 1); // in minutes
-                    requestAuth.Set("gapFillInitialBar", false); // to fill data from previous tick
+                    //requestAuth.Set("gapFillInitialBar", false); // to fill data from previous tick
                     string s = EndRequestDateTime.ToString("yyyy-MM-ddTHH:mm:ss");
                     requestAuth.Set("startDateTime", StartRequestDateTime.ToString("yyyy-MM-ddTHH:mm:ss"));
                     requestAuth.Set("endDateTime", EndRequestDateTime.ToString("yyyy-MM-ddTHH:mm:ss"));
@@ -171,13 +168,16 @@ namespace UnwindTicket.DAL
             {
                 if (e.Error == null)
                 {
+                    Logger.LogEntry("Information", "Intraday Data - GenerateBarCSV start: " + IntradayBars.Count());
                     this.GenerateBarCSV(IntradayBars);
-                    Logger.LogEntry("Information", "BB Process finish");
+                    Logger.LogEntry("Information", "Intraday Data - Process finish");
+                    if (IntradayMessage != null) IntradayMessage.Invoke("Download Complete");
                     
                 }
                 else
                 {
-                    Logger.LogEntry("Error", "bwProcess_RunWorkerCompleted: " + e.Error);
+                    Logger.LogEntry("Error", "Intraday Data - bwProcess_RunWorkerCompleted: " + e.Error);
+                    if (IntradayMessage != null) IntradayMessage.Invoke("Error in Download");
                 }
             }
             catch (Exception ex)
@@ -206,11 +206,11 @@ namespace UnwindTicket.DAL
                             {
                                 if (referenceDataResponse.GetElementAsString("subcategory").ToString().Contains("DAILY"))
                                 {
-                                    Logger.LogEntry("Information", "requestProcessResponse: Daily Limit reached ");
+                                    Logger.LogEntry("Information", "Intraday Data - requestProcessResponse: Daily Limit reached ");
                                 }
                                 else if (referenceDataResponse.GetElementAsString("subcategory").ToString().Contains("MONTHLY"))
                                 {
-                                    Logger.LogEntry("Information", "requestProcessResponse: Monthly Limit reached ");
+                                    Logger.LogEntry("Information", "Intraday Data - requestProcessResponse: Monthly Limit reached ");
                                 }
                             }
                         }
@@ -227,28 +227,35 @@ namespace UnwindTicket.DAL
                                 for (int i = 0; i < numBars; ++i)
                                 {
                                     Element bar = data.GetValueAsElement(i);
+                                    Int64 vol =  bar.GetElementAsInt64("volume");
+                                    double amt = bar.GetElementAsFloat64("value");
+                                    if (responseTicker.Contains("INDEX"))
+                                    {
+                                        vol = 1;
+                                        amt = bar.GetElementAsFloat64("close");
+                                    }
                                     IntradayBars.Add(
                                         new Bar
                                         { 
                                             Ric = responseTicker,
                                             Date = StartRequestDateTime.Date,
                                             Time = Convert.ToDateTime(bar.GetElementAsDate("time").ToString()),
-                                            Volume = bar.GetElementAsInt64("volume"),
-                                            Amount = bar.GetElementAsFloat64("value"),
+                                            Volume = vol,
+                                            Amount = amt
                                         }
                                     );
                                 
                                 }
-                                Logger.LogEntry("Information", "requestProcessResponse: Response received for  [" + responseTicker + "]");
+                                Logger.LogEntry("Information", "Intraday Data - requestProcessResponse: Response received for  [" + responseTicker + "]");
                             }
                             else
                             {
-                                Logger.LogEntry("Information", "requestProcessResponse: No response received for [" + responseTicker + "]");
+                                Logger.LogEntry("Information", "Intraday Data - requestProcessResponse: No response received for [" + responseTicker + "]");
                             }
                         }
                         catch (Exception ex)
                         {
-                            Logger.LogEntry("Error", "requestProcessResponse: " + ex.Message.ToString() + "\n" + ex.StackTrace.ToString());
+                            Logger.LogEntry("Error", "Intraday Data - requestProcessResponse: " + ex.Message.ToString() + "\n" + ex.StackTrace.ToString());
                         }
 
                         //if (Convert.ToBoolean(ConfigurationManager.AppSettings["WriteBloombergMessage"]) == true)
@@ -259,7 +266,7 @@ namespace UnwindTicket.DAL
             }
             catch (Exception ex)
             {
-                Logger.LogEntry("Error", "requestProcessResponse: " + ex.Message.ToString() + "\n" + ex.StackTrace.ToString());
+                Logger.LogEntry("Error", "Intraday Data - requestProcessResponse: " + ex.Message.ToString() + "\n" + ex.StackTrace.ToString());
             }
         }
 
@@ -276,27 +283,29 @@ namespace UnwindTicket.DAL
                         List<Bar> bar = Bars.Where(a => a.Ric == ticker).ToList();
                         if (bar.Count() == 0)
                         {
-                            Logger.LogEntry("Information", "No Bar Data found found for Ticker: " + ticker);
+                            Logger.LogEntry("Information", "Intraday Data - No Bar Data found found for Ticker: " + ticker);
                             continue;
                         }
                         DateTime TradeDate = bar.Select(a => a.Date).FirstOrDefault();
                         if (TradeDate == null)
                         {
-                            Logger.LogEntry("Information", "TradeDate found Null for Ticker: " + ticker);
+                            Logger.LogEntry("Information", "Intraday Data - TradeDate found Null for Ticker: " + ticker);
                             continue;
                         }
                         CreateDirectory(TradeDate, LocalHistoryFilePath);
                         string BarFileName = LocalHistoryFilePath + @"\Log\" + TradeDate.ToString("dd.MMM.yyyy") + @"\" + ticker + ".csv";
 
-                        StreamWriter sw = new StreamWriter(BarFileName, true);
+                       
                         StringBuilder Data = new StringBuilder();
-                        Data.Append("Time,Volume,Amount");
+                        Data.Append("Time,Volume,Amount" + "\n");
                         foreach (Bar b in bar)
                         {
                             Data.Append(b.Time + "," + b.Volume + "," + b.Amount + "\n");
                         }
-                        sw.Write(Data.ToString());
 
+                        StreamWriter sw = new StreamWriter(BarFileName, true);
+                        sw.Write(Data.ToString());
+                        sw.Close();
                         try
                         {
                             string result = CallApiMethod(UploadDataLink + "UploadBBData/", "Ticker=" + ticker + "&TradeDate=" + TradeDate.ToString("dd-MMM-yyyy") + "&Data=" + Data.ToString(), "POST");
@@ -311,7 +320,7 @@ namespace UnwindTicket.DAL
                     }
                     catch (Exception ex)
                     {
-                        Logger.LogEntry("Error", "btnIntradayData_Click Ticker " + ticker  + "\n" + ex.Message + "\t" + ex.StackTrace);
+                        Logger.LogEntry("Error", "Intraday Data - btnIntradayData_Click Ticker " + ticker + "\n" + ex.Message + "\t" + ex.StackTrace);
                     }
                 }
 

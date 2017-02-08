@@ -9,10 +9,12 @@ using System.Windows.Forms;
 
 namespace UnwindTicket
 {
+
+    
     public partial class IntradayDataSend : Form
     {
         DateTime DownloadDate;
-
+        
         public IntradayDataSend()
         {
             InitializeComponent();
@@ -27,7 +29,10 @@ namespace UnwindTicket
                 UnwindTicket.DAL.BloombergHistoryData obj = new DAL.BloombergHistoryData();
                 obj.StartRequestDateTime = Convert.ToDateTime(DownloadDate.ToString("dd-MMM-yyyy 00:00:00"));
                 obj.EndRequestDateTime = Convert.ToDateTime(DownloadDate.ToString("dd-MMM-yyyy 23:59:59"));
+                obj.IntradayMessage += Message;
+                Logger.LogEntry("Information", "Intraday Data send request Initiated | StartDate:" + DownloadDate.ToString());
                 obj.ProcessHistoryRequest();
+
             }
             catch (Exception ex)
             {
@@ -37,9 +42,11 @@ namespace UnwindTicket
          
         }
 
+      
+
         private void IntradayDataSend_Load(object sender, EventArgs e)
         {
-
+            //Label.CheckForIllegalCrossThreadCalls = false;  
             switch (dtDownloadDate.Value.ToString("dddd").ToUpper())
             {
                 case "SUNDAY":
@@ -59,6 +66,12 @@ namespace UnwindTicket
         {
             this.Close();
         }
+
+       public void Message(string message)
+        {
+            lblStatus.Text = message ;
+        }
+       
     }
 }
 

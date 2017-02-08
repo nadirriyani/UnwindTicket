@@ -79,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnwindTicket.exe" size="158208">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnwindTicket.exe" size="159232">
       <assemblyIdentity name="UnwindTicket" version="1.0.0.4" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Uf9POZCapYAwkEUq2XMLlsRUm/g=</dsig:DigestValue>
+        <dsig:DigestValue>3Gp5UsELwtSiBG/wispJ3FbWKuw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -117,13 +117,13 @@
       <dsig:DigestValue>hrT+6bFOuMEhSjlCr8P/WtmpZtE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="UnwindTicket.exe.config" size="3009">
+  <file name="UnwindTicket.exe.config" size="2640">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>Sc3mFJf0pSTsPKcqy4z9wWC6yww=</dsig:DigestValue>
+      <dsig:DigestValue>W+NS5MFPMqkt36KU0TvRmwqJbNk=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
