@@ -83,3 +83,4 @@ D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.application
 D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.IntradayDataSend.resources
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.IntradayDataSend.resources
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csprojResolveAssemblyReference.cache

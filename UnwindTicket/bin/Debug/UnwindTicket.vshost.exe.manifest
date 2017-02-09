@@ -79,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnwindTicket.exe" size="158720">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnwindTicket.exe" size="159232">
       <assemblyIdentity name="UnwindTicket" version="1.0.0.4" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>WRpQ0eXKjfWZtAAnw5su/f+e5hs=</dsig:DigestValue>
+        <dsig:DigestValue>65ZUgI7j9edQGa5fBitZGdWl8G0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
