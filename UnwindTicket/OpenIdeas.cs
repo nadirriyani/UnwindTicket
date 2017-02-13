@@ -115,7 +115,7 @@ namespace UnwindTicket
             {
                 try
                 {
-                    if (LastRefresh.Date != DateTime.Now.Date)  // overnight refresh call
+                     if (LastRefresh.Date != DateTime.Now.Date)  // overnight refresh call
                     {
                         Refresh();
                         Logger.LogEntry("Information", "Refreshed Overnight - " + LastRefresh);
@@ -125,7 +125,7 @@ namespace UnwindTicket
                         DateTime DownloadDate = DateTime.Now.Date.AddDays(-1);
                         Logger.LogEntry("Information", "Spain and Sector data download start - " + DownloadDate.ToString());
                         UnwindTicket.DAL.BloombergHistoryData obj = new DAL.BloombergHistoryData();
-                        if (DownloadDate.ToString("dddd").ToUpper() != "SUNDAY" || DownloadDate.ToString("dddd").ToUpper() != "MONDAY") // not required for non tradding days
+                        if (DownloadDate.ToString("dddd").ToUpper() != "SUNDAY" && DownloadDate.ToString("dddd").ToUpper() != "SATURDAY") // not required for non tradding days
                         {
                             obj.StartRequestDateTime = Convert.ToDateTime(DownloadDate.ToString("dd-MMM-yyyy 00:00:00"));
                             obj.EndRequestDateTime = Convert.ToDateTime(DownloadDate.ToString("dd-MMM-yyyy 23:59:59"));

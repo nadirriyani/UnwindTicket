@@ -292,8 +292,8 @@ namespace UnwindTicket.DAL
                             Logger.LogEntry("Information", "Intraday Data - TradeDate found Null for Ticker: " + ticker);
                             continue;
                         }
-                        CreateDirectory(TradeDate, LocalHistoryFilePath);
-                        string BarFileName = LocalHistoryFilePath + @"\Log\" + TradeDate.ToString("dd.MMM.yyyy") + @"\" + ticker + ".csv";
+                       // CreateDirectory(TradeDate, LocalHistoryFilePath);
+                       // string BarFileName = LocalHistoryFilePath + @"\Log\" + TradeDate.ToString("dd.MMM.yyyy") + @"\" + ticker + ".csv";
 
                        
                         StringBuilder Data = new StringBuilder();
@@ -303,9 +303,9 @@ namespace UnwindTicket.DAL
                             Data.Append(b.Time + "," + b.Volume + "," + b.Amount + "\n");
                         }
 
-                        StreamWriter sw = new StreamWriter(BarFileName, true);
-                        sw.Write(Data.ToString());
-                        sw.Close();
+                        //StreamWriter sw = new StreamWriter(BarFileName, true);
+                        //sw.Write(Data.ToString());
+                        //sw.Close();
                         try
                         {
                             string result = CallApiMethod(UploadDataLink + "UploadBBData/", "Ticker=" + ticker + "&TradeDate=" + TradeDate.ToString("dd-MMM-yyyy") + "&Data=" + Data.ToString(), "POST");
