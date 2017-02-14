@@ -24,7 +24,7 @@ namespace UnwindTicket.DAL
         public DateTime StartRequestDateTime = new DateTime(2017, 01, 31, 00, 00, 0, 0);
         public DateTime EndRequestDateTime = new DateTime(2017, 01, 31, 23, 59, 59, 0);
         public string[] BBTickers;
-        Int32 ClientId = 76;
+        Int32 ClientId = 239;
         string WatchlistName = "Spain Equity";
         
         public List<Bar> IntradayBars = new List<Bar>();
