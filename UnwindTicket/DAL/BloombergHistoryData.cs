@@ -21,8 +21,8 @@ namespace UnwindTicket.DAL
         Session session = new Session(new SessionOptions());
         public event IntradayDataMessage IntradayMessage;
 
-        public DateTime StartRequestDateTime = new DateTime(2017, 01, 31, 00, 00, 0, 0);
-        public DateTime EndRequestDateTime = new DateTime(2017, 01, 31, 23, 59, 59, 0);
+        public DateTime StartRequestDateTime = new DateTime(2001, 01, 01, 00, 00, 0, 0);
+        public DateTime EndRequestDateTime = new DateTime(2001, 01, 01, 23, 59, 59, 0);
         public string[] BBTickers;
         Int32 ClientId = 239;
         string WatchlistName = "Spain Equity";
@@ -48,7 +48,65 @@ namespace UnwindTicket.DAL
                 bwProcess = new System.ComponentModel.BackgroundWorker();
                 bwProcess.DoWork += bwProcess_DoWork;
                 bwProcess.RunWorkerCompleted += bwProcess_RunWorkerCompleted;
-             
+
+
+                if (StartRequestDateTime.ToString("dd-MMM-yyyy") == "01-Jan-2001")
+                {
+                    DateTime AsOnDate = DateTime.Now.Date;
+                    switch (AsOnDate.ToString("dddd").ToUpper())
+                    {
+                        case "SUNDAY":
+                            AsOnDate = DateTime.Now.AddDays(-2);
+                            break;
+                        case "MONDAY":
+                            AsOnDate = DateTime.Now.AddDays(-3);
+                            break;
+                        default:
+                            AsOnDate = DateTime.Now.AddDays(-1);
+                            break;
+                    }
+
+                    string strTradeDate = CallApiMethod(UploadDataLink + "GetLastIntradayDate", string.Empty, "GET");
+                    Logger.LogEntry("Information", "Intraday Data - ProcessHistoryRequest:GetLastIntradayDate " + strTradeDate);
+                    if (strTradeDate != "")
+                    {
+                        DateTime LastDBTradeDate = Convert.ToDateTime(strTradeDate);
+                        if (LastDBTradeDate.Date == AsOnDate.Date)
+                        {
+                            Logger.LogEntry("Information", "Intraday Data - ProcessHistoryRequest:  DB Already up to date, No update require");
+                            return;
+                        }
+
+                        switch (LastDBTradeDate.ToString("dddd").ToUpper()) // find next trading day, Data available + next trading day
+                        {
+                            case "FRIDAY":
+                                LastDBTradeDate = LastDBTradeDate.AddDays(3);
+                                break;
+                            case "SATURDAY":
+                                LastDBTradeDate = LastDBTradeDate.AddDays(2);
+                                break;
+                            default:
+                                LastDBTradeDate = LastDBTradeDate.AddDays(1);
+                                break;
+                        }
+
+                        StartRequestDateTime = Convert.ToDateTime(LastDBTradeDate.ToString("dd-MMM-yyyy 00:00:00"));
+                        EndRequestDateTime = Convert.ToDateTime(AsOnDate.ToString("dd-MMM-yyyy 23:59:59"));
+
+                    }
+                    else
+                    {
+                        Logger.LogEntry("Information", "Intraday Data - ProcessHistoryRequest: strTradeDate is blank, check service");
+                        return;
+
+                    }
+                }
+                if ((EndRequestDateTime - StartRequestDateTime).TotalDays > 15) // maximum 15 days allowed to download
+                {
+                    Logger.LogEntry("Information", "Intraday Data - Request should not be more than 15 days");
+                    return;
+                }
+
                 bwProcess.RunWorkerAsync();
             }
             catch (Exception ex)
@@ -68,6 +126,8 @@ namespace UnwindTicket.DAL
             {
                 string result = CallApiMethod(UploadDataLink + "GetIdentifier?" + "ClientId=" + ClientId + "&WatchlistName=" + WatchlistName, string.Empty , "GET");
                 BBTickers = result.Split(',').ToArray();
+
+               
 
                 session = new Session(new SessionOptions());
                 bool sessionStarted = session.Start();

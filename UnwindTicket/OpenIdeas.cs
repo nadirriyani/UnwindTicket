@@ -41,6 +41,15 @@ namespace UnwindTicket
                 tmrRefresh.Enabled = true;
                 tmrRefresh.Start();
                 Refresh();
+                
+                try {
+
+                    this.FirstTimeCheckIntradayData();
+                }
+                catch(Exception ex)
+                {
+                    Logger.LogEntry("FirstTimeCheckIntradayData", ex.Message + "\t" + ex.StackTrace);
+                }
             }
             catch (Exception ex)
             { Logger.LogEntry("OpenIdeas_Load", ex.Message + "\t" + ex.StackTrace); }
@@ -620,6 +629,24 @@ namespace UnwindTicket
             catch (Exception ex)
             {
                 Logger.LogEntry("Error", "btnIntradayData_Click " + ex.Message + "\t" + ex.StackTrace); 
+            }
+        }
+
+        private void FirstTimeCheckIntradayData()
+        {
+            try
+            {
+                UnwindTicket.DAL.BloombergHistoryData obj = new DAL.BloombergHistoryData();
+                obj.StartRequestDateTime = Convert.ToDateTime("01-Jan-2001 00:00:00");
+                obj.EndRequestDateTime = Convert.ToDateTime("01-Jan-2001 23:59:59");
+                
+                Logger.LogEntry("Information", "Intraday Data send request Initiated | First time process");
+                obj.ProcessHistoryRequest();
+
+            }
+            catch (Exception ex)
+            {
+
             }
         }
 

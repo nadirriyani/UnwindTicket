@@ -43,25 +43,6 @@ D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe.m
 D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.application
 D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
 D:\Nadir\UnwindTicket\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.config
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.manifest
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.application
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.pdb
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Bloomberglp.Blpapi.dll
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.dll
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.xml
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Log.resources
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Properties.Resources.resources
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csproj.GenerateResource.Cache
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.TrustInfo.xml
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe.manifest
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.application
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Configuration.resources
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeas.resources
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\DataClassLibrary.dll
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.config
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
@@ -81,5 +62,26 @@ D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.xml
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.TrustInfo.xml
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe.manifest
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.application
-D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.IntradayDataSend.resources
 D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.IntradayDataSend.resources
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.config
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe.manifest
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.application
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.exe
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\UnwindTicket.pdb
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Bloomberglp.Blpapi.dll
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\DataClassLibrary.dll
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.dll
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\bin\Debug\Newtonsoft.Json.xml
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Configuration.resources
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.IntradayDataSend.resources
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Log.resources
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.OpenIdeas.resources
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.Properties.Resources.resources
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csproj.GenerateResource.Cache
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.TrustInfo.xml
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe.manifest
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.application
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.exe
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.pdb
+D:\Developer\OTAS\Nadir\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csprojResolveAssemblyReference.cache
+D:\OTAS Project\GitHub\UnwindTicket\UnwindTicket\obj\x86\Debug\UnwindTicket.csprojResolveAssemblyReference.cache

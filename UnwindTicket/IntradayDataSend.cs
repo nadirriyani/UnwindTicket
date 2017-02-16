@@ -42,7 +42,6 @@ namespace UnwindTicket
          
         }
 
-      
 
         private void IntradayDataSend_Load(object sender, EventArgs e)
         {
